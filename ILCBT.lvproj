@@ -82,6 +82,19 @@
 			<Item Name="ILCBTViews.lvlib" Type="Library" URL="../View/ILCBTViews.lvlib"/>
 			<Item Name="subpanelHelper.vi" Type="VI" URL="../View/subpanelHelper.vi"/>
 		</Item>
+		<Item Name="AI1" Type="NI-DAQmx Channel">
+			<Property Name="AI.Coupling" Type="Str">AC</Property>
+			<Property Name="AI.Lowpass.Enable" Type="Str">0</Property>
+			<Property Name="AI.Max" Type="Str">5</Property>
+			<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+			<Property Name="AI.Min" Type="Str">-5</Property>
+			<Property Name="AI.TermCfg" Type="Str">Pseudodifferential</Property>
+			<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+			<Property Name="ChanType" Type="Str">Analog Input</Property>
+			<Property Name="Descr" Type="Str"></Property>
+			<Property Name="Name" Type="Str">AI1</Property>
+			<Property Name="PhysicalChanName" Type="Str">Dev1/ai1</Property>
+		</Item>
 		<Item Name="AI3" Type="NI-DAQmx Channel">
 			<Property Name="AI.Coupling" Type="Str">AC</Property>
 			<Property Name="AI.Lowpass.Enable" Type="Str">0</Property>

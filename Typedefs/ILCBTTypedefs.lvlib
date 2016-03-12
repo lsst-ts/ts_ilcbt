@@ -10,4 +10,6 @@
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
+	<Item Name="Supply Voltage Test.ctl" Type="VI" URL="../Supply Voltage Test.ctl"/>
+	<Item Name="Supply Voltage Tests.ctl" Type="VI" URL="../Supply Voltage Tests.ctl"/>
 </Library>
