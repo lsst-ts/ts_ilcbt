@@ -8,20 +8,32 @@
 	<Item Name="AI Voltage to NI Voltage.ctl" Type="VI" URL="../AI Voltage to NI Voltage.ctl"/>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
 	<Item Name="Device Configuration Tests.ctl" Type="VI" URL="../Device Configuration Tests.ctl"/>
+	<Item Name="Digital Signal Level.ctl" Type="VI" URL="../Digital Signal Level.ctl"/>
+	<Item Name="Ground Test.ctl" Type="VI" URL="../Ground Test.ctl"/>
 	<Item Name="ILC Analog Input Tests.ctl" Type="VI" URL="../ILC Analog Input Tests.ctl"/>
 	<Item Name="ILC Analog Output Test.ctl" Type="VI" URL="../ILC Analog Output Test.ctl"/>
 	<Item Name="ILC Analog Output Tests.ctl" Type="VI" URL="../ILC Analog Output Tests.ctl"/>
 	<Item Name="ILC Ch0 Analog Input Test.ctl" Type="VI" URL="../ILC Ch0 Analog Input Test.ctl"/>
 	<Item Name="ILC DAC Analog Output Test.ctl" Type="VI" URL="../ILC DAC Analog Output Test.ctl"/>
+	<Item Name="ILC Digital Input Test.ctl" Type="VI" URL="../ILC Digital Input Test.ctl"/>
+	<Item Name="ILC Digital Input Tests.ctl" Type="VI" URL="../ILC Digital Input Tests.ctl"/>
+	<Item Name="ILC Digital Output Test.ctl" Type="VI" URL="../ILC Digital Output Test.ctl"/>
+	<Item Name="ILC Digital Output Tests.ctl" Type="VI" URL="../ILC Digital Output Tests.ctl"/>
 	<Item Name="ILC EXC Analog Output Test.ctl" Type="VI" URL="../ILC EXC Analog Output Test.ctl"/>
+	<Item Name="ILC GPI Digital Input Test.ctl" Type="VI" URL="../ILC GPI Digital Input Test.ctl"/>
 	<Item Name="ILC Static Analog Output Test.ctl" Type="VI" URL="../ILC Static Analog Output Test.ctl"/>
+	<Item Name="ILC Static Digital Output Test.ctl" Type="VI" URL="../ILC Static Digital Output Test.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
+	<Item Name="Motor Drive Test.ctl" Type="VI" URL="../Motor Drive Test.ctl"/>
 	<Item Name="Multichannel Analog Input Test.ctl" Type="VI" URL="../Multichannel Analog Input Test.ctl"/>
+	<Item Name="MUX Settings.ctl" Type="VI" URL="../MUX Settings.ctl"/>
 	<Item Name="OutputData.ctl" Type="VI" URL="../OutputData.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
+	<Item Name="SSI Serial Test.ctl" Type="VI" URL="../SSI Serial Test.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
 	<Item Name="Supply Voltage Test.ctl" Type="VI" URL="../Supply Voltage Test.ctl"/>
 	<Item Name="Supply Voltage Tests.ctl" Type="VI" URL="../Supply Voltage Tests.ctl"/>
 	<Item Name="Test Values.ctl" Type="VI" URL="../Test Values.ctl"/>
+	<Item Name="UART Serial Test.ctl" Type="VI" URL="../UART Serial Test.ctl"/>
 </Library>
