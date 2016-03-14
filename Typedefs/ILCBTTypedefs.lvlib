@@ -4,9 +4,19 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="1-Wire Test.ctl" Type="VI" URL="../1-Wire Test.ctl"/>
+	<Item Name="AI Voltage to NI Voltage.ctl" Type="VI" URL="../AI Voltage to NI Voltage.ctl"/>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
+	<Item Name="Device Configuration Tests.ctl" Type="VI" URL="../Device Configuration Tests.ctl"/>
+	<Item Name="ILC Analog Input Tests.ctl" Type="VI" URL="../ILC Analog Input Tests.ctl"/>
+	<Item Name="ILC Analog Output Test.ctl" Type="VI" URL="../ILC Analog Output Test.ctl"/>
+	<Item Name="ILC Analog Output Tests.ctl" Type="VI" URL="../ILC Analog Output Tests.ctl"/>
+	<Item Name="ILC Ch0 Analog Input Test.ctl" Type="VI" URL="../ILC Ch0 Analog Input Test.ctl"/>
+	<Item Name="ILC DAC Analog Output Test.ctl" Type="VI" URL="../ILC DAC Analog Output Test.ctl"/>
+	<Item Name="ILC EXC Analog Output Test.ctl" Type="VI" URL="../ILC EXC Analog Output Test.ctl"/>
 	<Item Name="ILC Static Analog Output Test.ctl" Type="VI" URL="../ILC Static Analog Output Test.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
+	<Item Name="Multichannel Analog Input Test.ctl" Type="VI" URL="../Multichannel Analog Input Test.ctl"/>
 	<Item Name="OutputData.ctl" Type="VI" URL="../OutputData.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
