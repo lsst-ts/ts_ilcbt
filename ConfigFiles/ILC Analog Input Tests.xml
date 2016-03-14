@@ -1,0 +1,147 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0f2</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>ILC Analog Input Tests</Name>
+<NumElts>7</NumElts>
+<Refnum>
+<Name>CH13 DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>CH24 DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Cluster>
+<Name>AO Voltage Data</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>ADC Bit Count</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Vref</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>NI Scaling</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Bias</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<U16>
+<Name>Delay Between Test Steps</Name>
+<Val>0</Val>
+</U16>
+<Cluster>
+<Name>1 Channel</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>ADC Configurations</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<I32>
+<Name>Value to Expect</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Tolerance</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>3 Channels</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>ADC Configurations</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>PGA Gain Coefficients</Name>
+<Dimsize>0</Dimsize>
+<U16>
+<Name>Numeric</Name>
+<Val></Val>
+</U16>
+</Array>
+<Cluster>
+<Name>Test Values</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Start Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Stop Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Number of Steps</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<DBL>
+<Name>Tolerance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>5 Channels</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>ADC Configurations</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Array>
+<Name>PGA Gain Coefficients</Name>
+<Dimsize>0</Dimsize>
+<U16>
+<Name>Numeric</Name>
+<Val></Val>
+</U16>
+</Array>
+<Cluster>
+<Name>Test Values</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Start Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Stop Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Number of Steps</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<DBL>
+<Name>Tolerance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LvVariant>
+</LVData>

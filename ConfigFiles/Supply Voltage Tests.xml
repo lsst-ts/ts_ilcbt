@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>13.0.1f2</Version>
+<Version>15.0f2</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
@@ -10,13 +10,13 @@
 <Name>3.3 V Supply</Name>
 <NumElts>4</NumElts>
 <Refnum>
-<Name>Analog Supply DAQ Channel</Name>
+<Name>Analog Supply DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
 <Val>AI3</Val>
 </Refnum>
 <Refnum>
-<Name>Digital Supply DAQ Channel</Name>
+<Name>Digital Supply DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
 <Val>AI3</Val>
@@ -34,13 +34,13 @@
 <Name>5 V Supply</Name>
 <NumElts>4</NumElts>
 <Refnum>
-<Name>Analog Supply DAQ Channel</Name>
+<Name>Analog Supply DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
 <Val>AI3</Val>
 </Refnum>
 <Refnum>
-<Name>Digital Supply DAQ Channel</Name>
+<Name>Digital Supply DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
 <Val>AI3</Val>

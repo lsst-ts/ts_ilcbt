@@ -1,0 +1,27 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0f2</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Device Configuration Tests</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Unique ID Test</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>Expected Value</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TEDS Status Test</Name>
+<NumElts>1</NumElts>
+<String>
+<Name>Expected Value</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Cluster>
+</LvVariant>
+</LVData>

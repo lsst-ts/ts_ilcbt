@@ -1,0 +1,161 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0f2</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>ILC Analog Output Tests</Name>
+<NumElts>6</NumElts>
+<U16>
+<Name>Delay Between Test Steps</Name>
+<Val>0</Val>
+</U16>
+<Cluster>
+<Name>Vref</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DBL>
+<Name>Expected Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Tolerance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ROT</Name>
+<NumElts>2</NumElts>
+<Refnum>
+<Name>DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Cluster>
+<Name>Test Values</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Start Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Stop Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Number of Steps</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>BIAS</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DBL>
+<Name>Expected Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Tolerance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>EXC</Name>
+<NumElts>6</NumElts>
+<Refnum>
+<Name>EXC1 DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>EXC2 DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>EXC3 DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>EXC4 DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DBL>
+<Name>Expected Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Tolerance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>DAC</Name>
+<NumElts>6</NumElts>
+<Refnum>
+<Name>DAC1 DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>DAC2 DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>DAC3 DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>DAC4 DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Cluster>
+<Name>Test Values</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Start Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Stop Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Number of Steps</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<DBL>
+<Name>Tolerance</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LvVariant>
+</LVData>

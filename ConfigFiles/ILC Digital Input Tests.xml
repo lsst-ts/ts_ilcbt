@@ -1,0 +1,121 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0f2</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>ILC Digital Input Tests</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>Limit Switch 1:</Name>
+<NumElts>5</NumElts>
+<Refnum>
+<Name>DAQmx Global Channel</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<EW>
+<Name>High Level Value to Test</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>High Level Value to Expect</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Low Level Value to Test</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Low Level Value to Expect</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Limit Switch 2:</Name>
+<NumElts>5</NumElts>
+<Refnum>
+<Name>DAQmx Global Channel</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<EW>
+<Name>High Level Value to Test</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>High Level Value to Expect</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Low Level Value to Test</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Low Level Value to Expect</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>General Purpose Digital Input</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<Cluster>
+<Name>Frequency Values to Test</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Start Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Stop Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Number of Steps</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Tachometer Values to Expect</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>Start Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Stop Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Number of Steps</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Cluster>
+</Cluster>
+</LvVariant>
+</LVData>
