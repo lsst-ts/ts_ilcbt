@@ -6,10 +6,10 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="1-Wire Test.ctl" Type="VI" URL="../1-Wire Test.ctl"/>
 	<Item Name="AI Voltage to NI Voltage.ctl" Type="VI" URL="../AI Voltage to NI Voltage.ctl"/>
+	<Item Name="Collection Settings.ctl" Type="VI" URL="../Collection Settings.ctl"/>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
 	<Item Name="Device Configuration Tests.ctl" Type="VI" URL="../Device Configuration Tests.ctl"/>
 	<Item Name="Digital Signal Level.ctl" Type="VI" URL="../Digital Signal Level.ctl"/>
-	<Item Name="Ground Test.ctl" Type="VI" URL="../Ground Test.ctl"/>
 	<Item Name="ILC Analog Input Tests.ctl" Type="VI" URL="../ILC Analog Input Tests.ctl"/>
 	<Item Name="ILC Analog Output Test.ctl" Type="VI" URL="../ILC Analog Output Test.ctl"/>
 	<Item Name="ILC Analog Output Tests.ctl" Type="VI" URL="../ILC Analog Output Tests.ctl"/>
@@ -22,7 +22,6 @@
 	<Item Name="ILC EXC Analog Output Test.ctl" Type="VI" URL="../ILC EXC Analog Output Test.ctl"/>
 	<Item Name="ILC GPI Digital Input Test.ctl" Type="VI" URL="../ILC GPI Digital Input Test.ctl"/>
 	<Item Name="ILC Static Analog Output Test.ctl" Type="VI" URL="../ILC Static Analog Output Test.ctl"/>
-	<Item Name="ILC Static Digital Output Test.ctl" Type="VI" URL="../ILC Static Digital Output Test.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
 	<Item Name="Motor Drive Test.ctl" Type="VI" URL="../Motor Drive Test.ctl"/>
 	<Item Name="Multichannel Analog Input Test.ctl" Type="VI" URL="../Multichannel Analog Input Test.ctl"/>

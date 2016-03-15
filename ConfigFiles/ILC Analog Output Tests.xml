@@ -157,7 +157,7 @@
 </Cluster>
 <DBL>
 <Name>Tolerance</Name>
-<Val>-0.98980000000000</Val>
+<Val>1.02000000000000E-2</Val>
 </DBL>
 </Cluster>
 </Cluster>

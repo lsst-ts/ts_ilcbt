@@ -1,0 +1,15 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0f2</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Collection Settings</Name>
+<NumElts>1</NumElts>
+<U32>
+<Name>Samples To Average</Name>
+<Val>100</Val>
+</U32>
+</Cluster>
+</LvVariant>
+</LVData>

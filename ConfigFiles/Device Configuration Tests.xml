@@ -5,15 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>Device Configuration Tests</Name>
-<NumElts>2</NumElts>
-<Cluster>
-<Name>Unique ID Test</Name>
 <NumElts>1</NumElts>
-<String>
-<Name>Expected Value</Name>
-<Val>N7584</Val>
-</String>
-</Cluster>
 <Cluster>
 <Name>TEDS Status Test</Name>
 <NumElts>1</NumElts>

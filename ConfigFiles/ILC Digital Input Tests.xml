@@ -76,7 +76,7 @@
 </Cluster>
 <Cluster>
 <Name>General Purpose Digital Input</Name>
-<NumElts>3</NumElts>
+<NumElts>2</NumElts>
 <Refnum>
 <Name>DAQ Channel to Write</Name>
 <RefKind>Generic Tag</RefKind>
@@ -92,23 +92,7 @@
 </DBL>
 <DBL>
 <Name>Stop Value</Name>
-<Val>44.00000000000000</Val>
-</DBL>
-<U16>
-<Name>Number of Steps</Name>
-<Val>10</Val>
-</U16>
-</Cluster>
-<Cluster>
-<Name>Tachometer Values to Expect</Name>
-<NumElts>3</NumElts>
-<DBL>
-<Name>Start Value</Name>
-<Val>0.00000000000000</Val>
-</DBL>
-<DBL>
-<Name>Stop Value</Name>
-<Val>65534.99999999999990</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 <U16>
 <Name>Number of Steps</Name>

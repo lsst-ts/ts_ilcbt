@@ -27,7 +27,7 @@
 </U16>
 <DBL>
 <Name>Vref</Name>
-<Val>0.00000000000000</Val>
+<Val>1.25000000000000</Val>
 </DBL>
 <DBL>
 <Name>NI Scaling</Name>
@@ -44,7 +44,7 @@
 </U16>
 <Cluster>
 <Name>1 Channel</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Array>
 <Name>ADC Configurations</Name>
 <Dimsize>9</Dimsize>
@@ -91,8 +91,28 @@
 </I32>
 <I32>
 <Name>Tolerance</Name>
-<Val>5</Val>
+<Val>15</Val>
 </I32>
+<Array>
+<Name>PGA Gain Coefficients</Name>
+<Dimsize>4</Dimsize>
+<U16>
+<Name>Numeric</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Numeric</Name>
+<Val>1</Val>
+</U16>
+<U16>
+<Name>Numeric</Name>
+<Val>2</Val>
+</U16>
+<U16>
+<Name>Numeric</Name>
+<Val>3</Val>
+</U16>
+</Array>
 </Cluster>
 <Cluster>
 <Name>3 Channels</Name>
@@ -191,7 +211,7 @@
 </Cluster>
 <DBL>
 <Name>Tolerance</Name>
-<Val>1.43022000000000E-4</Val>
+<Val>1.43051000000000E-4</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -206,11 +226,11 @@
 </String>
 <String>
 <Name>String</Name>
-<Val>P</Val>
+<Val>O</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>{</Val>
+<Val>P</Val>
 </String>
 <String>
 <Name>String</Name>
@@ -278,7 +298,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Start Value</Name>
-<Val>1.20100000000000E-2</Val>
+<Val>1.20000000000000E-2</Val>
 </DBL>
 <DBL>
 <Name>Stop Value</Name>
@@ -286,12 +306,12 @@
 </DBL>
 <U16>
 <Name>Number of Steps</Name>
-<Val>0</Val>
+<Val>12</Val>
 </U16>
 </Cluster>
 <DBL>
 <Name>Tolerance</Name>
-<Val>1.43031000000000E-4</Val>
+<Val>1.43051000000000E-4</Val>
 </DBL>
 </Cluster>
 </Cluster>

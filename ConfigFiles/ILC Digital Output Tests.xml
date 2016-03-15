@@ -5,7 +5,7 @@
 <Name>Value</Name>
 <Cluster>
 <Name>ILC Digital Output Tests</Name>
-<NumElts>5</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>SSR</Name>
 <NumElts>5</NumElts>
@@ -349,90 +349,6 @@
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>1</Val>
-</EW>
-</Cluster>
-</Cluster>
-<Cluster>
-<Name>Ground Test</Name>
-<NumElts>5</NumElts>
-<Cluster>
-<Name>MUX Settings</Name>
-<NumElts>2</NumElts>
-<EW>
-<Name>MUX_AO</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
-<EW>
-<Name>MUX_A1</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
-</Cluster>
-<Cluster>
-<Name>Gnd1</Name>
-<NumElts>2</NumElts>
-<Refnum>
-<Name>DAQ Channel to Read</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>p1_4</Val>
-</Refnum>
-<EW>
-<Name>Expected Signal Level</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
-</Cluster>
-<Cluster>
-<Name>Gnd2</Name>
-<NumElts>2</NumElts>
-<Refnum>
-<Name>DAQ Channel to Read</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>p1_5</Val>
-</Refnum>
-<EW>
-<Name>Expected Signal Level</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
-</Cluster>
-<Cluster>
-<Name>Gnd3</Name>
-<NumElts>2</NumElts>
-<Refnum>
-<Name>DAQ Channel to Read</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>p1_6</Val>
-</Refnum>
-<EW>
-<Name>Expected Signal Level</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
-</Cluster>
-<Cluster>
-<Name>Gnd4</Name>
-<NumElts>2</NumElts>
-<Refnum>
-<Name>DAQ Channel to Read</Name>
-<RefKind>Generic Tag</RefKind>
-<RefType>NIDAQ</RefType>
-<Val>p1_7</Val>
-</Refnum>
-<EW>
-<Name>Expected Signal Level</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
 </EW>
 </Cluster>
 </Cluster>
