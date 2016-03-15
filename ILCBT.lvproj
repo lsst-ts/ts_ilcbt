@@ -327,6 +327,14 @@
 			<Item Name="ILCTC" Type="Folder">
 				<Item Name="ILCTC.lvclass" Type="LVClass" URL="../Model/ILCTC/ILCTC.lvclass"/>
 			</Item>
+			<Item Name="TestLog" Type="Folder">
+				<Item Name="CSVTestLog" Type="Folder">
+					<Item Name="CSVTestLog.lvclass" Type="LVClass" URL="../Model/TestLog/CSVTestLog/CSVTestLog.lvclass"/>
+				</Item>
+				<Item Name="ITestLog" Type="Folder">
+					<Item Name="ITestLog.lvclass" Type="LVClass" URL="../Model/TestLog/ITestLog/ITestLog.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="Model.lvclass" Type="LVClass" URL="../Model/Model/Model.lvclass"/>
 		</Item>
 		<Item Name="State" Type="Folder">
@@ -352,6 +360,7 @@
 			<Item Name="ILCBTViews.lvlib" Type="Library" URL="../View/ILCBTViews.lvlib"/>
 			<Item Name="subpanelHelper.vi" Type="VI" URL="../View/subpanelHelper.vi"/>
 		</Item>
+		<Item Name="FooBar.vi" Type="VI" URL="../FooBar.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ConfigurationEditor.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/ConfigurationEditor/ConfigurationEditor.lvclass"/>

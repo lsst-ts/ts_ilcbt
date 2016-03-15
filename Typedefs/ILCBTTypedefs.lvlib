@@ -4,6 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="ITestLog" Type="Folder">
+		<Item Name="PassFailTest.ctl" Type="VI" URL="../PassFailTest.ctl"/>
+		<Item Name="TestScenarioTypes.ctl" Type="VI" URL="../TestScenarioTypes.ctl"/>
+		<Item Name="WriteDataFileInput.ctl" Type="VI" URL="../WriteDataFileInput.ctl"/>
+		<Item Name="WriteLogMessageInput.ctl" Type="VI" URL="../WriteLogMessageInput.ctl"/>
+	</Item>
 	<Item Name="1-Wire Test.ctl" Type="VI" URL="../1-Wire Test.ctl"/>
 	<Item Name="AI Voltage to NI Voltage.ctl" Type="VI" URL="../AI Voltage to NI Voltage.ctl"/>
 	<Item Name="Collection Settings.ctl" Type="VI" URL="../Collection Settings.ctl"/>
