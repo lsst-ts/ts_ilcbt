@@ -335,6 +335,13 @@
 					<Item Name="ITestLog.lvclass" Type="LVClass" URL="../Model/TestLog/ITestLog/ITestLog.lvclass"/>
 				</Item>
 			</Item>
+			<Item Name="TestScenario" Type="Folder">
+				<Item Name="ITestScenario.lvclass" Type="LVClass" URL="../Model/TestScenario/ITestScenario/ITestScenario.lvclass"/>
+			</Item>
+			<Item Name="TestScenarioFactory" Type="Folder">
+				<Item Name="ITestScenarioFactory.lvclass" Type="LVClass" URL="../Model/TestScenarioFactory/ITestScenarioFactory/ITestScenarioFactory.lvclass"/>
+				<Item Name="TestScenarioFactory.lvclass" Type="LVClass" URL="../Model/TestScenarioFactory/TestScenarioFactory/TestScenarioFactory.lvclass"/>
+			</Item>
 			<Item Name="Model.lvclass" Type="LVClass" URL="../Model/Model/Model.lvclass"/>
 		</Item>
 		<Item Name="State" Type="Folder">
@@ -369,8 +376,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
