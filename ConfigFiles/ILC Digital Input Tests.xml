@@ -13,19 +13,19 @@
 <Name>DAQmx Global Channel</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p0_0</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
@@ -47,19 +47,19 @@
 <Name>DAQmx Global Channel</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p0_1</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
@@ -81,7 +81,7 @@
 <Name>DAQ Channel to Write</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_1</Val>
 </Refnum>
 <Cluster>
 <Name>Frequency Values to Test</Name>
@@ -92,11 +92,11 @@
 </DBL>
 <DBL>
 <Name>Stop Value</Name>
-<Val>0.00000000000000</Val>
+<Val>44.00000000000000</Val>
 </DBL>
 <U16>
 <Name>Number of Steps</Name>
-<Val>0</Val>
+<Val>10</Val>
 </U16>
 </Cluster>
 <Cluster>
@@ -108,11 +108,11 @@
 </DBL>
 <DBL>
 <Name>Stop Value</Name>
-<Val>0.00000000000000</Val>
+<Val>65534.99999999999990</Val>
 </DBL>
 <U16>
 <Name>Number of Steps</Name>
-<Val>0</Val>
+<Val>10</Val>
 </U16>
 </Cluster>
 </Cluster>

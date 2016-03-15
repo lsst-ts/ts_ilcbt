@@ -13,19 +13,19 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_0</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
@@ -50,7 +50,7 @@
 <Name>MUX_AO</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>MUX_A1</Name>
@@ -66,13 +66,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_7</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -90,7 +90,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -100,13 +100,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_4</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -124,7 +124,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -134,13 +134,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_5</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -158,7 +158,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -168,13 +168,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_6</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -192,7 +192,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Cluster>
@@ -212,7 +212,7 @@
 <Name>MUX_A1</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -222,13 +222,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_4</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -246,7 +246,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -256,13 +256,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_5</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -280,7 +280,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -290,13 +290,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_6</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -314,7 +314,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -324,13 +324,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_7</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -348,7 +348,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Cluster>
@@ -362,13 +362,13 @@
 <Name>MUX_AO</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>MUX_A1</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -378,7 +378,7 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_4</Val>
 </Refnum>
 <EW>
 <Name>Expected Signal Level</Name>
@@ -394,7 +394,7 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_5</Val>
 </Refnum>
 <EW>
 <Name>Expected Signal Level</Name>
@@ -410,7 +410,7 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_6</Val>
 </Refnum>
 <EW>
 <Name>Expected Signal Level</Name>
@@ -426,7 +426,7 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_7</Val>
 </Refnum>
 <EW>
 <Name>Expected Signal Level</Name>
@@ -462,13 +462,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_4</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -486,7 +486,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -496,13 +496,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_5</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -520,7 +520,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -530,13 +530,13 @@
 <Name>DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>NIDAQ</RefType>
-<Val></Val>
+<Val>p1_6</Val>
 </Refnum>
 <EW>
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -554,7 +554,7 @@
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Cluster>

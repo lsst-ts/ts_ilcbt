@@ -43,6 +43,276 @@
 		<Item Name="Controller" Type="Folder">
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../Controller/Controller.lvclass"/>
 		</Item>
+		<Item Name="DAQmxGlobalChannels" Type="Folder">
+			<Item Name="ai0" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">3.7999999999999998</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">2.7999999999999998</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai0</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai0</Property>
+			</Item>
+			<Item Name="ai1" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">3.7999999999999998</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">2.7999999999999998</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai1</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai1</Property>
+			</Item>
+			<Item Name="ai2" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">5.5</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">4.5</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai2</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai2</Property>
+			</Item>
+			<Item Name="ai3" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">5.5</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">4.5</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai3</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai3</Property>
+			</Item>
+			<Item Name="ai4" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">10</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">-10</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai4</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai4</Property>
+			</Item>
+			<Item Name="ai5" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">4.7999999999999998</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">3.7999999999999998</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai5</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai5</Property>
+			</Item>
+			<Item Name="ai6" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">4.7999999999999998</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">-0.5</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai6</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai6</Property>
+			</Item>
+			<Item Name="ai7" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">5.5</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">-0.5</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai7</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai7</Property>
+			</Item>
+			<Item Name="ai8" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">5.5</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">-0.5</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai8</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai8</Property>
+			</Item>
+			<Item Name="ai9" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">5.5</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">-0.5</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai9</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai9</Property>
+			</Item>
+			<Item Name="ai10" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">5.5</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">-0.5</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai10</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai10</Property>
+			</Item>
+			<Item Name="ai11" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">2.1499999999999999</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">1.1499999999999999</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai11</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai11</Property>
+			</Item>
+			<Item Name="ai12" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">3.7999999999999998</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">2.7999999999999998</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai12</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai12</Property>
+			</Item>
+			<Item Name="ai13" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">3.7999999999999998</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">2.7999999999999998</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai13</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai13</Property>
+			</Item>
+			<Item Name="ai14" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">3.7999999999999998</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">2.7999999999999998</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai14</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai14</Property>
+			</Item>
+			<Item Name="ai15" Type="NI-DAQmx Channel">
+				<Property Name="AI.Max" Type="Str">3.7999999999999998</Property>
+				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
+				<Property Name="AI.Min" Type="Str">2.7999999999999998</Property>
+				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ai15</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai15</Property>
+			</Item>
+			<Item Name="ao0" Type="NI-DAQmx Channel">
+				<Property Name="AO.Max" Type="Str">10</Property>
+				<Property Name="AO.Min" Type="Str">-6.7000000000000002</Property>
+				<Property Name="AO.OutputType" Type="Str">Voltage</Property>
+				<Property Name="AO.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AO.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Output</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ao0</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ao0</Property>
+			</Item>
+			<Item Name="ao1" Type="NI-DAQmx Channel">
+				<Property Name="AO.Max" Type="Str">10</Property>
+				<Property Name="AO.Min" Type="Str">-6.7000000000000002</Property>
+				<Property Name="AO.OutputType" Type="Str">Voltage</Property>
+				<Property Name="AO.TermCfg" Type="Str">RSE</Property>
+				<Property Name="AO.Voltage.Units" Type="Str">Volts</Property>
+				<Property Name="ChanType" Type="Str">Analog Output</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="Name" Type="Str">ao1</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/ao1</Property>
+			</Item>
+			<Item Name="p0_0" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p0_0</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port0/line0</Property>
+			</Item>
+			<Item Name="p0_1" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p0_1</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port0/line1</Property>
+			</Item>
+			<Item Name="p1_0" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p1_0</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line0</Property>
+			</Item>
+			<Item Name="p1_1" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p1_1</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line1</Property>
+			</Item>
+			<Item Name="p1_2" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p1_2</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line2</Property>
+			</Item>
+			<Item Name="p1_3" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p1_3</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line3</Property>
+			</Item>
+			<Item Name="p1_4" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p1_4</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line4</Property>
+			</Item>
+			<Item Name="p1_5" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p1_5</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line5</Property>
+			</Item>
+			<Item Name="p1_6" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p1_6</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line6</Property>
+			</Item>
+			<Item Name="p1_7" Type="NI-DAQmx Channel">
+				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="Descr" Type="Str"></Property>
+				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="Name" Type="Str">p1_7</Property>
+				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line7</Property>
+			</Item>
+		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="ApplicationElements" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -82,52 +352,7 @@
 			<Item Name="ILCBTViews.lvlib" Type="Library" URL="../View/ILCBTViews.lvlib"/>
 			<Item Name="subpanelHelper.vi" Type="VI" URL="../View/subpanelHelper.vi"/>
 		</Item>
-		<Item Name="AI1" Type="NI-DAQmx Channel">
-			<Property Name="AI.Coupling" Type="Str">AC</Property>
-			<Property Name="AI.Lowpass.Enable" Type="Str">0</Property>
-			<Property Name="AI.Max" Type="Str">5</Property>
-			<Property Name="AI.MeasType" Type="Str">Voltage</Property>
-			<Property Name="AI.Min" Type="Str">-5</Property>
-			<Property Name="AI.TermCfg" Type="Str">Pseudodifferential</Property>
-			<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
-			<Property Name="ChanType" Type="Str">Analog Input</Property>
-			<Property Name="Descr" Type="Str"></Property>
-			<Property Name="Name" Type="Str">AI1</Property>
-			<Property Name="PhysicalChanName" Type="Str">Dev1/ai1</Property>
-		</Item>
-		<Item Name="AI3" Type="NI-DAQmx Channel">
-			<Property Name="AI.Coupling" Type="Str">AC</Property>
-			<Property Name="AI.Lowpass.Enable" Type="Str">0</Property>
-			<Property Name="AI.Max" Type="Str">5</Property>
-			<Property Name="AI.MeasType" Type="Str">Voltage</Property>
-			<Property Name="AI.Min" Type="Str">-5</Property>
-			<Property Name="AI.TermCfg" Type="Str">Pseudodifferential</Property>
-			<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
-			<Property Name="ChanType" Type="Str">Analog Input</Property>
-			<Property Name="Descr" Type="Str"></Property>
-			<Property Name="Name" Type="Str">AI3</Property>
-			<Property Name="PhysicalChanName" Type="Str">Dev1/ai3</Property>
-		</Item>
-		<Item Name="Read 5V Digital" Type="NI-DAQmx Task">
-			<Property Name="\0\AI.Coupling" Type="Str">AC</Property>
-			<Property Name="\0\AI.Lowpass.Enable" Type="Str">0</Property>
-			<Property Name="\0\AI.Max" Type="Str">5</Property>
-			<Property Name="\0\AI.MeasType" Type="Str">Voltage</Property>
-			<Property Name="\0\AI.Min" Type="Str">-5</Property>
-			<Property Name="\0\AI.TermCfg" Type="Str">Pseudodifferential</Property>
-			<Property Name="\0\AI.Voltage.Units" Type="Str">Volts</Property>
-			<Property Name="\0\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\0\Name" Type="Str">Read 5V Digital/Voltage</Property>
-			<Property Name="\0\PhysicalChanName" Type="Str">Dev1/ai3</Property>
-			<Property Name="Channels" Type="Str">Read 5V Digital/Voltage</Property>
-			<Property Name="Name" Type="Str">Read 5V Digital</Property>
-			<Property Name="SampClk.ActiveEdge" Type="Str">Rising</Property>
-			<Property Name="SampClk.Rate" Type="Str">1000</Property>
-			<Property Name="SampClk.Src" Type="Str"></Property>
-			<Property Name="SampQuant.SampMode" Type="Str">Finite Samples</Property>
-			<Property Name="SampQuant.SampPerChan" Type="Str">100</Property>
-			<Property Name="SampTimingType" Type="Str">Sample Clock</Property>
-		</Item>
+		<Item Name="FooBar.vi" Type="VI" URL="../FooBar.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ConfigurationEditor.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/ConfigurationEditor/ConfigurationEditor.lvclass"/>
@@ -136,8 +361,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -147,6 +372,64 @@
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="DAQmx Create Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/task.llb/DAQmx Create Task.vi"/>
+				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Is Task Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Is Task Done.vi"/>
+				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D I32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D I32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D U16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 2D U32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Analog DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D Pulse Freq 1 Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Freq 1 Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D Pulse Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Ticks 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D Pulse Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D Pulse Time 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D U32 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D U32 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 2D U32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi"/>
+				<Item Name="DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter U32 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Bool 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Bool 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Bool NChan 1Samp 1Line).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U8 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U8 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U8 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U8 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U16 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U16 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U16 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U16 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U32 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D U32 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D Bool NChan 1Samp NLine).vi"/>
+				<Item Name="DAQmx Read (Digital 2D U8 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U8 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 2D U16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 2D U32 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Digital Bool 1Line 1Point).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Bool 1Line 1Point).vi"/>
+				<Item Name="DAQmx Read (Digital U8 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U8 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital U16 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U16 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital U32 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital U32 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
+				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
+				<Item Name="DAQmx Read (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I32).vi"/>
+				<Item Name="DAQmx Read (Raw 1D U8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U8).vi"/>
+				<Item Name="DAQmx Read (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U16).vi"/>
+				<Item Name="DAQmx Read (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D U32).vi"/>
+				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
+				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -192,6 +475,9 @@
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+			</Item>
+			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">

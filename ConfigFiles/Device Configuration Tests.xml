@@ -11,7 +11,7 @@
 <NumElts>1</NumElts>
 <String>
 <Name>Expected Value</Name>
-<Val></Val>
+<Val>N7584</Val>
 </String>
 </Cluster>
 <Cluster>
@@ -19,7 +19,7 @@
 <NumElts>1</NumElts>
 <String>
 <Name>Expected Value</Name>
-<Val></Val>
+<Val>P</Val>
 </String>
 </Cluster>
 </Cluster>
