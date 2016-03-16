@@ -336,6 +336,10 @@
 				</Item>
 			</Item>
 			<Item Name="TestScenario" Type="Folder">
+				<Item Name="+3.3VASupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+3.3VASupplyTest/+3.3VASupplyTest.lvclass"/>
+				<Item Name="+3.3VDSupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+3.3VDSupplyTest/+3.3VDSupplyTest.lvclass"/>
+				<Item Name="+5VASupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+5VASupplyTest/+5VASupplyTest.lvclass"/>
+				<Item Name="+5VDSupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+5VDSupplyTest/+5VDSupplyTest.lvclass"/>
 				<Item Name="ITestScenario.lvclass" Type="LVClass" URL="../Model/TestScenario/ITestScenario/ITestScenario.lvclass"/>
 			</Item>
 			<Item Name="TestScenarioFactory" Type="Folder">
