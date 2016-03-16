@@ -6,10 +6,12 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="ITestLog" Type="Folder">
 		<Item Name="PassFailTest.ctl" Type="VI" URL="../PassFailTest.ctl"/>
-		<Item Name="TestExecution.ctl" Type="VI" URL="../TestExecution.ctl"/>
 		<Item Name="TestScenarioTypes.ctl" Type="VI" URL="../TestScenarioTypes.ctl"/>
 		<Item Name="WriteDataFileInput.ctl" Type="VI" URL="../WriteDataFileInput.ctl"/>
 		<Item Name="WriteLogMessageInput.ctl" Type="VI" URL="../WriteLogMessageInput.ctl"/>
+	</Item>
+	<Item Name="ITestLogFactory" Type="Folder">
+		<Item Name="TestLogTypes.ctl" Type="VI" URL="../TestLogTypes.ctl"/>
 	</Item>
 	<Item Name="1-Wire Test.ctl" Type="VI" URL="../1-Wire Test.ctl"/>
 	<Item Name="AI Voltage to NI Voltage.ctl" Type="VI" URL="../AI Voltage to NI Voltage.ctl"/>
