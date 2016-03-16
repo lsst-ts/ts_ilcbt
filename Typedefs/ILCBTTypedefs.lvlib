@@ -43,5 +43,6 @@
 	<Item Name="Supply Voltage Test.ctl" Type="VI" URL="../Supply Voltage Test.ctl"/>
 	<Item Name="Supply Voltage Tests.ctl" Type="VI" URL="../Supply Voltage Tests.ctl"/>
 	<Item Name="Test Values.ctl" Type="VI" URL="../Test Values.ctl"/>
+	<Item Name="TestExecution.ctl" Type="VI" URL="../TestExecution.ctl"/>
 	<Item Name="UART Serial Test.ctl" Type="VI" URL="../UART Serial Test.ctl"/>
 </Library>
