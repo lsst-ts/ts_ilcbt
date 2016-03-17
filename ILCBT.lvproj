@@ -405,7 +405,7 @@
 		<Item Name="FooBar.vi" Type="VI" URL="../FooBar.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="passFail.vi" Type="VI" URL="../passFail.vi"/>
-		<Item Name="readDI.vi" Type="VI" URL="/&lt;userlib&gt;/Common/ILC/ILC/readDI.vi"/>
+		<Item Name="readDI.vi" Type="VI" URL="../readDI.vi"/>
 		<Item Name="SampleDAQmx.vi" Type="VI" URL="../SampleDAQmx.vi"/>
 		<Item Name="testResult.vi" Type="VI" URL="../testResult.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
