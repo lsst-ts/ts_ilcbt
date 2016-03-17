@@ -336,17 +336,38 @@
 				<Item Name="TestLogFactory.lvclass" Type="LVClass" URL="../Model/TestLogFactory/TestLogFactory/TestLogFactory.lvclass"/>
 			</Item>
 			<Item Name="TestScenario" Type="Folder">
-				<Item Name="+3.3VASupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+3.3VASupplyTest/+3.3VASupplyTest.lvclass"/>
-				<Item Name="+3.3VDSupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+3.3VDSupplyTest/+3.3VDSupplyTest.lvclass"/>
-				<Item Name="+5VASupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+5VASupplyTest/+5VASupplyTest.lvclass"/>
-				<Item Name="+5VDSupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+5VDSupplyTest/+5VDSupplyTest.lvclass"/>
-				<Item Name="BIASTest.lvclass" Type="LVClass" URL="../TestScenario/BIASTest/BIASTest.lvclass"/>
-				<Item Name="EXC1Test.lvclass" Type="LVClass" URL="../TestScenario/EXC1Test/EXC1Test.lvclass"/>
-				<Item Name="EXC2Test.lvclass" Type="LVClass" URL="../TestScenario/EXC2Test/EXC2Test.lvclass"/>
-				<Item Name="EXC3Test.lvclass" Type="LVClass" URL="../TestScenario/EXC3Test/EXC3Test.lvclass"/>
-				<Item Name="EXC4Test.lvclass" Type="LVClass" URL="../TestScenario/EXC4Test/EXC4Test.lvclass"/>
+				<Item Name="ILC Analog Output Test" Type="Folder">
+					<Item Name="BIASTest.lvclass" Type="LVClass" URL="../TestScenario/BIASTest/BIASTest.lvclass"/>
+					<Item Name="EXC1Test.lvclass" Type="LVClass" URL="../TestScenario/EXC1Test/EXC1Test.lvclass"/>
+					<Item Name="EXC2Test.lvclass" Type="LVClass" URL="../TestScenario/EXC2Test/EXC2Test.lvclass"/>
+					<Item Name="EXC3Test.lvclass" Type="LVClass" URL="../TestScenario/EXC3Test/EXC3Test.lvclass"/>
+					<Item Name="EXC4Test.lvclass" Type="LVClass" URL="../TestScenario/EXC4Test/EXC4Test.lvclass"/>
+					<Item Name="VrefTest.lvclass" Type="LVClass" URL="../TestScenario/VrefTest/VrefTest.lvclass"/>
+				</Item>
+				<Item Name="ILC Digital Output Test" Type="Folder">
+					<Item Name="Motor Drive Group Test" Type="Folder">
+						<Item Name="SM_CCW Test" Type="Folder">
+							<Item Name="SM_CCW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CCW High Test/SM_CCW High Test.lvclass"/>
+							<Item Name="SM_CCW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CCW Low Test/SM_CCW Low Test.lvclass"/>
+						</Item>
+						<Item Name="SM_CW Test" Type="Folder">
+							<Item Name="SM_CW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW High Test/SM_CW High Test.lvclass"/>
+							<Item Name="SM_CW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW Low Test/SM_CW Low Test.lvclass"/>
+						</Item>
+					</Item>
+					<Item Name="SSR_TTL Test" Type="Folder">
+						<Item Name="SSR_TTL High Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL High Test/SSR_TTL High Test.lvclass"/>
+						<Item Name="SSR_TTL Low Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL Low Test/SSR_TTL Low Test.lvclass"/>
+					</Item>
+				</Item>
+				<Item Name="Supply Voltage Test" Type="Folder">
+					<Item Name="+3.3VASupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+3.3VASupplyTest/+3.3VASupplyTest.lvclass"/>
+					<Item Name="+3.3VDSupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+3.3VDSupplyTest/+3.3VDSupplyTest.lvclass"/>
+					<Item Name="+5VASupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+5VASupplyTest/+5VASupplyTest.lvclass"/>
+					<Item Name="+5VDSupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+5VDSupplyTest/+5VDSupplyTest.lvclass"/>
+				</Item>
 				<Item Name="ITestScenario.lvclass" Type="LVClass" URL="../Model/TestScenario/ITestScenario/ITestScenario.lvclass"/>
-				<Item Name="VrefTest.lvclass" Type="LVClass" URL="../TestScenario/VrefTest/VrefTest.lvclass"/>
+				<Item Name="NotImplementedTest.lvclass" Type="LVClass" URL="../TestScenario/Not Implemented Test/NotImplementedTest.lvclass"/>
 			</Item>
 			<Item Name="TestScenarioFactory" Type="Folder">
 				<Item Name="ITestScenarioFactory.lvclass" Type="LVClass" URL="../Model/TestScenarioFactory/ITestScenarioFactory/ITestScenarioFactory.lvclass"/>
@@ -391,8 +412,9 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
+				<Item Name="readDI.vi" Type="VI" URL="/&lt;userlib&gt;/Common/ILC/ILC/readDI.vi"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -528,6 +550,8 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
+			<Item Name="boolToDigitalLevel.vi" Type="VI" URL="../boolToDigitalLevel.vi"/>
+			<Item Name="digitalLevelToBool.vi" Type="VI" URL="../digitalLevelToBool.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
