@@ -398,7 +398,10 @@
 			<Item Name="ILCBTViews.lvlib" Type="Library" URL="../View/ILCBTViews.lvlib"/>
 			<Item Name="subpanelHelper.vi" Type="VI" URL="../View/subpanelHelper.vi"/>
 		</Item>
+		<Item Name="boolToDigitalLevel.vi" Type="VI" URL="../boolToDigitalLevel.vi"/>
+		<Item Name="checkDigitalLevel.vi" Type="VI" URL="../checkDigitalLevel.vi"/>
 		<Item Name="checkTolerance.vi" Type="VI" URL="../checkTolerance.vi"/>
+		<Item Name="digitalLevelToBool.vi" Type="VI" URL="../digitalLevelToBool.vi"/>
 		<Item Name="FooBar.vi" Type="VI" URL="../FooBar.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="passFail.vi" Type="VI" URL="../passFail.vi"/>
@@ -550,8 +553,6 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
-			<Item Name="boolToDigitalLevel.vi" Type="VI" URL="../boolToDigitalLevel.vi"/>
-			<Item Name="digitalLevelToBool.vi" Type="VI" URL="../digitalLevelToBool.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
