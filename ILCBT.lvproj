@@ -342,6 +342,7 @@
 					<Item Name="EXC2Test.lvclass" Type="LVClass" URL="../TestScenario/EXC2Test/EXC2Test.lvclass"/>
 					<Item Name="EXC3Test.lvclass" Type="LVClass" URL="../TestScenario/EXC3Test/EXC3Test.lvclass"/>
 					<Item Name="EXC4Test.lvclass" Type="LVClass" URL="../TestScenario/EXC4Test/EXC4Test.lvclass"/>
+					<Item Name="ROT Test.lvclass" Type="LVClass" URL="../TestScenario/ROT Test/ROT Test.lvclass"/>
 					<Item Name="VrefTest.lvclass" Type="LVClass" URL="../TestScenario/VrefTest/VrefTest.lvclass"/>
 				</Item>
 				<Item Name="ILC Digital Output Test" Type="Folder">
@@ -358,6 +359,11 @@
 					<Item Name="SSR_TTL Test" Type="Folder">
 						<Item Name="SSR_TTL High Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL High Test/SSR_TTL High Test.lvclass"/>
 						<Item Name="SSR_TTL Low Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL Low Test/SSR_TTL Low Test.lvclass"/>
+					</Item>
+					<Item Name="UART Serial Group Test" Type="Folder">
+						<Item Name="RS232-TXD Test" Type="Folder">
+							<Item Name="RS232-TXD Low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-TXD Low Test/RS232-TXD Low Test.lvclass"/>
+						</Item>
 					</Item>
 				</Item>
 				<Item Name="Supply Voltage Test" Type="Folder">
@@ -628,7 +634,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
@@ -658,7 +664,10 @@
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/setMux.vi</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/readDI.vi</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ILCBT</Property>
 				<Property Name="TgtF_internalName" Type="Str">ILCBT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>

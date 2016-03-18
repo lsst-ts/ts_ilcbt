@@ -84,25 +84,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -118,25 +118,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -152,25 +152,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -186,25 +186,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Cluster>
@@ -252,25 +252,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -286,25 +286,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -320,25 +320,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -354,25 +354,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Cluster>
@@ -386,13 +386,13 @@
 <Name>MUX_AO</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>MUX_A1</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <Refnum>
 <Name>MUX_A0 DAQ Channel to Write</Name>
@@ -420,25 +420,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -454,25 +454,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -488,25 +488,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Cluster>
