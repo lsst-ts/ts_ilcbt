@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>13.0.1f2</Version>
+<Version>13.0.1f5</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
@@ -14,7 +14,7 @@
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>2</Val>
+<Val>1</Val>
 </EW>
 <Cluster>
 <Name>Protocol Parameters</Name>
@@ -22,11 +22,11 @@
 <Refnum>
 <Name>VISA resource name</Name>
 <RefKind>VISA</RefKind>
-<Val>COM4</Val>
+<Val>COM18</Val>
 </Refnum>
 <U32>
 <Name>Baud Rate</Name>
-<Val>500000</Val>
+<Val>460800</Val>
 </U32>
 <U16>
 <Name>Data Bits</Name>
@@ -51,7 +51,7 @@
 </U16>
 <U32>
 <Name>Timeout (ms)</Name>
-<Val>1000</Val>
+<Val>2000</Val>
 </U32>
 </Cluster>
 <Cluster>

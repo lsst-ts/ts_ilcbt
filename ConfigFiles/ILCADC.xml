@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>13.0.1f2</Version>
+<Version>13.0.1f5</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
@@ -11,7 +11,7 @@
 <Choice>Channel 0</Choice>
 <Choice>3 Channels</Choice>
 <Choice>5 Channels</Choice>
-<Val>1</Val>
+<Val>2</Val>
 </EW>
 <EW>
 <Name>Scan Rate (Hz) </Name>
