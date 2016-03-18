@@ -2,7 +2,7 @@
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{8CA08A37-126E-4404-8800-878D66CE53E1}" Type="Ref">/My Computer/Dependencies/user.lib/ILCSimulatorSignals.lvlib/ILCDataRequest</Property>
+	<Property Name="varPersistentID:{69EC3708-4237-4798-AB56-6E7ACDEBF0DC}" Type="Ref">/My Computer/Dependencies/user.lib/ILCSimulatorSignals.lvlib/ILCDataRequest</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -243,16 +243,16 @@
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/ao1</Property>
 			</Item>
 			<Item Name="p0_0" Type="NI-DAQmx Channel">
-				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="ChanType" Type="Str">Digital Output</Property>
 				<Property Name="Descr" Type="Str"></Property>
-				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="DO.InvertLines" Type="Str">0</Property>
 				<Property Name="Name" Type="Str">p0_0</Property>
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/port0/line0</Property>
 			</Item>
 			<Item Name="p0_1" Type="NI-DAQmx Channel">
-				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="ChanType" Type="Str">Digital Output</Property>
 				<Property Name="Descr" Type="Str"></Property>
-				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="DO.InvertLines" Type="Str">0</Property>
 				<Property Name="Name" Type="Str">p0_1</Property>
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/port0/line1</Property>
 			</Item>
@@ -271,16 +271,16 @@
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line1</Property>
 			</Item>
 			<Item Name="p1_2" Type="NI-DAQmx Channel">
-				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="ChanType" Type="Str">Digital Output</Property>
 				<Property Name="Descr" Type="Str"></Property>
-				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="DO.InvertLines" Type="Str">0</Property>
 				<Property Name="Name" Type="Str">p1_2</Property>
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line2</Property>
 			</Item>
 			<Item Name="p1_3" Type="NI-DAQmx Channel">
-				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="ChanType" Type="Str">Digital Output</Property>
 				<Property Name="Descr" Type="Str"></Property>
-				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="DO.InvertLines" Type="Str">0</Property>
 				<Property Name="Name" Type="Str">p1_3</Property>
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line3</Property>
 			</Item>
@@ -628,7 +628,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
@@ -637,7 +637,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5118B855-C6BB-416A-8903-08CD3C7DB9E6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0982F5AB-8AB5-42FF-BDDC-0DDF12274E9C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -652,7 +652,13 @@
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/FooBar.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/writeDO.vi</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/setMux.vi</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ILCBT</Property>
 				<Property Name="TgtF_internalName" Type="Str">ILCBT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
