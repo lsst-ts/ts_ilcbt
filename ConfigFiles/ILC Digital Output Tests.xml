@@ -45,7 +45,7 @@
 <NumElts>5</NumElts>
 <Cluster>
 <Name>MUX Settings</Name>
-<NumElts>2</NumElts>
+<NumElts>4</NumElts>
 <EW>
 <Name>MUX_AO</Name>
 <Choice>Low</Choice>
@@ -58,6 +58,18 @@
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
+<Refnum>
+<Name>MUX_A0 DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>p1_3</Val>
+</Refnum>
+<Refnum>
+<Name>MUX_A1 DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>p1_2</Val>
+</Refnum>
 </Cluster>
 <Cluster>
 <Name>CTS</Name>
@@ -72,25 +84,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -106,25 +118,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -140,25 +152,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -174,25 +186,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 </Cluster>
@@ -201,7 +213,7 @@
 <NumElts>5</NumElts>
 <Cluster>
 <Name>MUX Settings</Name>
-<NumElts>2</NumElts>
+<NumElts>4</NumElts>
 <EW>
 <Name>MUX_AO</Name>
 <Choice>Low</Choice>
@@ -214,6 +226,18 @@
 <Choice>High</Choice>
 <Val>1</Val>
 </EW>
+<Refnum>
+<Name>MUX_A0 DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>p1_3</Val>
+</Refnum>
+<Refnum>
+<Name>MUX_A1 DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>p1_2</Val>
+</Refnum>
 </Cluster>
 <Cluster>
 <Name>Out_SS</Name>
@@ -228,25 +252,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -262,25 +286,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -296,25 +320,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -330,25 +354,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 </Cluster>
@@ -357,7 +381,7 @@
 <NumElts>4</NumElts>
 <Cluster>
 <Name>MUX Settings</Name>
-<NumElts>2</NumElts>
+<NumElts>4</NumElts>
 <EW>
 <Name>MUX_AO</Name>
 <Choice>Low</Choice>
@@ -370,6 +394,18 @@
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
+<Refnum>
+<Name>MUX_A0 DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>p1_3</Val>
+</Refnum>
+<Refnum>
+<Name>MUX_A1 DAQ Channel to Write</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>p1_2</Val>
+</Refnum>
 </Cluster>
 <Cluster>
 <Name>SM_CW</Name>
@@ -384,25 +420,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -418,25 +454,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -452,25 +488,25 @@
 <Name>High Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Test</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 </Cluster>
