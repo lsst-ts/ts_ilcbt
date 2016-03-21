@@ -361,7 +361,20 @@
 						<Item Name="SSR_TTL Low Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL Low Test/SSR_TTL Low Test.lvclass"/>
 					</Item>
 					<Item Name="UART Serial Group Test" Type="Folder">
+						<Item Name="RS232-CTS Test" Type="Folder">
+							<Item Name="RS232-CTS High Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-CTS High Test/RS232-CTS High Test.lvclass"/>
+							<Item Name="RS232-CTS low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-CTS low Test/RS232-CTS low Test.lvclass"/>
+						</Item>
+						<Item Name="RS232-RTS Test" Type="Folder">
+							<Item Name="RS232-RTS High Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-RTS High Test/RS232-RTS High Test.lvclass"/>
+							<Item Name="RS232-RTS Low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-RTS Low Test/RS232-RTS Low Test.lvclass"/>
+						</Item>
+						<Item Name="RS232-RXD Test" Type="Folder">
+							<Item Name="RS232-RXD High Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-RXD High Test/RS232-RXD High Test.lvclass"/>
+							<Item Name="RS232-RXD Low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-RXD Low Test/RS232-RXD Low Test.lvclass"/>
+						</Item>
 						<Item Name="RS232-TXD Test" Type="Folder">
+							<Item Name="RS232-TXD High Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-TXD High Test/RS232-TXD High Test.lvclass"/>
 							<Item Name="RS232-TXD Low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-TXD Low Test/RS232-TXD Low Test.lvclass"/>
 						</Item>
 					</Item>
@@ -426,8 +439,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -634,7 +647,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
@@ -643,7 +656,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0982F5AB-8AB5-42FF-BDDC-0DDF12274E9C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F9ADDA9C-C370-4C7B-B7E9-67088C4D30E7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
