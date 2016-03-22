@@ -2,7 +2,7 @@
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{69EC3708-4237-4798-AB56-6E7ACDEBF0DC}" Type="Ref">/My Computer/Dependencies/user.lib/ILCSimulatorSignals.lvlib/ILCDataRequest</Property>
+	<Property Name="varPersistentID:{5465D5A3-A743-457C-8249-7B3BC6A44237}" Type="Ref">/My Computer/Dependencies/user.lib/ILCSimulatorSignals.lvlib/ILCDataRequest</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -321,6 +321,18 @@
 				</Item>
 				<Item Name="ApplicationElements.ctl" Type="VI" URL="../Model/ApplicationElements/ApplicationElements.ctl"/>
 			</Item>
+			<Item Name="ConfigureILCStrategy" Type="Folder">
+				<Item Name="ConfigureILCDAC1Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC1Strategy/ConfigureILCDAC1Strategy.lvclass"/>
+				<Item Name="ConfigureILCDAC2Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC2Strategy/ConfigureILCDAC2Strategy.lvclass"/>
+				<Item Name="ConfigureILCDAC3Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC3Strategy/ConfigureILCDAC3Strategy.lvclass"/>
+				<Item Name="ConfigureILCDAC4Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC4Strategy/ConfigureILCDAC4Strategy.lvclass"/>
+				<Item Name="ConfigureILCROTStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCROTStrategy/ConfigureILCROTStrategy.lvclass"/>
+				<Item Name="IConfigureILCStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/IConfigureILCStrategy/IConfigureILCStrategy.lvclass"/>
+			</Item>
+			<Item Name="ConverterStrategy" Type="Folder">
+				<Item Name="ConvertROTRawToEngStrategy.lvclass" Type="LVClass" URL="../Model/ConverterStrategy/ConvertROTRawToEngStrategy/ConvertROTRawToEngStrategy.lvclass"/>
+				<Item Name="IConverterStrategy.lvclass" Type="LVClass" URL="../Model/ConverterStrategy/IConverterStrategy/IConverterStrategy.lvclass"/>
+			</Item>
 			<Item Name="ILCSim1TC" Type="Folder">
 				<Item Name="ILCSim1TC.lvclass" Type="LVClass" URL="../Model/ILCSim1TC/ILCSim1TC.lvclass"/>
 			</Item>
@@ -337,13 +349,7 @@
 			</Item>
 			<Item Name="TestScenario" Type="Folder">
 				<Item Name="ILC Analog Output Test" Type="Folder">
-					<Item Name="BIASTest.lvclass" Type="LVClass" URL="../TestScenario/BIASTest/BIASTest.lvclass"/>
-					<Item Name="EXC1Test.lvclass" Type="LVClass" URL="../TestScenario/EXC1Test/EXC1Test.lvclass"/>
-					<Item Name="EXC2Test.lvclass" Type="LVClass" URL="../TestScenario/EXC2Test/EXC2Test.lvclass"/>
-					<Item Name="EXC3Test.lvclass" Type="LVClass" URL="../TestScenario/EXC3Test/EXC3Test.lvclass"/>
-					<Item Name="EXC4Test.lvclass" Type="LVClass" URL="../TestScenario/EXC4Test/EXC4Test.lvclass"/>
-					<Item Name="ROT Test.lvclass" Type="LVClass" URL="../TestScenario/ROT Test/ROT Test.lvclass"/>
-					<Item Name="VrefTest.lvclass" Type="LVClass" URL="../TestScenario/VrefTest/VrefTest.lvclass"/>
+					<Item Name="DAC1 Test.lvclass" Type="LVClass" URL="../TestScenario/DAC1 Test/DAC1 Test.lvclass"/>
 				</Item>
 				<Item Name="ILC Digital Output Test" Type="Folder">
 					<Item Name="Motor Drive Group Test" Type="Folder">
@@ -354,6 +360,23 @@
 						<Item Name="SM_CW Test" Type="Folder">
 							<Item Name="SM_CW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW High Test/SM_CW High Test.lvclass"/>
 							<Item Name="SM_CW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW Low Test/SM_CW Low Test.lvclass"/>
+						</Item>
+					</Item>
+					<Item Name="SSI Group Test" Type="Folder">
+						<Item Name="Out_SCLK Test" Type="Folder">
+							<Item Name="Out_SCLK High Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SCLK High Test/Out_SCLK High Test.lvclass"/>
+							<Item Name="Out_SCLK Low Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SCLK Low Test/Out_SCLK Low Test.lvclass"/>
+						</Item>
+						<Item Name="Out_SDI Test" Type="Folder">
+							<Item Name="Out_SDI High Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SDI High Test/Out_SDI High Test.lvclass"/>
+							<Item Name="Out_SDI Low Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SDI Low Test/Out_SDI Low Test.lvclass"/>
+						</Item>
+						<Item Name="Out_SS Test" Type="Folder">
+							<Item Name="Out_SS High Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SS High Test/Out_SS High Test Folder/Out_SS High Test.lvclass"/>
+							<Item Name="Out_SS Low Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SS Low Test/Out_SS Low Test.lvclass"/>
+						</Item>
+						<Item Name="Reset Test" Type="Folder">
+							<Item Name="Reset Low Test.lvclass" Type="LVClass" URL="../TestScenario/Reset Low Test/Reset Low Test.lvclass"/>
 						</Item>
 					</Item>
 					<Item Name="SSR_TTL Test" Type="Folder">
@@ -379,13 +402,9 @@
 						</Item>
 					</Item>
 				</Item>
-				<Item Name="Supply Voltage Test" Type="Folder">
-					<Item Name="+3.3VASupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+3.3VASupplyTest/+3.3VASupplyTest.lvclass"/>
-					<Item Name="+3.3VDSupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+3.3VDSupplyTest/+3.3VDSupplyTest.lvclass"/>
-					<Item Name="+5VASupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+5VASupplyTest/+5VASupplyTest.lvclass"/>
-					<Item Name="+5VDSupplyTest.lvclass" Type="LVClass" URL="../TestScenario/+5VDSupplyTest/+5VDSupplyTest.lvclass"/>
-				</Item>
+				<Item Name="Constant Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Constant Analog Output Voltage Test/Constant Analog Output Voltage Test.lvclass"/>
 				<Item Name="ITestScenario.lvclass" Type="LVClass" URL="../Model/TestScenario/ITestScenario/ITestScenario.lvclass"/>
+				<Item Name="Modulated Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Modulated Analog Output Voltage Test/Modulated Analog Output Voltage Test.lvclass"/>
 				<Item Name="NotImplementedTest.lvclass" Type="LVClass" URL="../TestScenario/Not Implemented Test/NotImplementedTest.lvclass"/>
 			</Item>
 			<Item Name="TestScenarioFactory" Type="Folder">
@@ -425,9 +444,9 @@
 		<Item Name="FooBar.vi" Type="VI" URL="../FooBar.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="passFail.vi" Type="VI" URL="../passFail.vi"/>
+		<Item Name="readAI.vi" Type="VI" URL="../readAI.vi"/>
 		<Item Name="readAllSettings.vi" Type="VI" URL="../readAllSettings.vi"/>
 		<Item Name="readDI.vi" Type="VI" URL="../readDI.vi"/>
-		<Item Name="SampleDAQmx.vi" Type="VI" URL="../SampleDAQmx.vi"/>
 		<Item Name="setMux.vi" Type="VI" URL="../setMux.vi"/>
 		<Item Name="testResult.vi" Type="VI" URL="../testResult.vi"/>
 		<Item Name="writeDO.vi" Type="VI" URL="../writeDO.vi"/>
@@ -439,8 +458,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -647,7 +666,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
