@@ -330,6 +330,7 @@
 				<Item Name="IConfigureILCStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/IConfigureILCStrategy/IConfigureILCStrategy.lvclass"/>
 			</Item>
 			<Item Name="ConverterStrategy" Type="Folder">
+				<Item Name="ConvertDACRawToEngStrategy.lvclass" Type="LVClass" URL="../Model/ConverterStrategy/ConvertDACRawToEngStrategy/ConvertDACRawToEngStrategy.lvclass"/>
 				<Item Name="ConvertROTRawToEngStrategy.lvclass" Type="LVClass" URL="../Model/ConverterStrategy/ConvertROTRawToEngStrategy/ConvertROTRawToEngStrategy.lvclass"/>
 				<Item Name="IConverterStrategy.lvclass" Type="LVClass" URL="../Model/ConverterStrategy/IConverterStrategy/IConverterStrategy.lvclass"/>
 			</Item>
