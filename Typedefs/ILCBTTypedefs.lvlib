@@ -38,6 +38,7 @@
 		<Item Name="Digital Outputs" Type="Folder">
 			<Item Name="ILC Digital Output Test.ctl" Type="VI" URL="../ILC Digital Output Test.ctl"/>
 			<Item Name="ILC Digital Output Tests.ctl" Type="VI" URL="../ILC Digital Output Tests.ctl"/>
+			<Item Name="Limit Switch Configuration.ctl" Type="VI" URL="../Limit Switch Configuration.ctl"/>
 			<Item Name="Motor Drive Test.ctl" Type="VI" URL="../Motor Drive Test.ctl"/>
 			<Item Name="MUX Settings.ctl" Type="VI" URL="../MUX Settings.ctl"/>
 			<Item Name="SSI Serial Test.ctl" Type="VI" URL="../SSI Serial Test.ctl"/>
