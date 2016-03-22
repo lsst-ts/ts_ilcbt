@@ -326,6 +326,7 @@
 				<Item Name="ConfigureILCDAC2Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC2Strategy/ConfigureILCDAC2Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC3Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC3Strategy/ConfigureILCDAC3Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC4Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC4Strategy/ConfigureILCDAC4Strategy.lvclass"/>
+				<Item Name="ConfigureILCDOStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDOStrategy/ConfigureILCDOStrategy.lvclass"/>
 				<Item Name="ConfigureILCROTStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCROTStrategy/ConfigureILCROTStrategy.lvclass"/>
 				<Item Name="IConfigureILCStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/IConfigureILCStrategy/IConfigureILCStrategy.lvclass"/>
 			</Item>
@@ -350,41 +351,8 @@
 			</Item>
 			<Item Name="TestScenario" Type="Folder">
 				<Item Name="ILC Analog Output Test" Type="Folder"/>
-				<Item Name="ILC Digital Output Test" Type="Folder">
-					<Item Name="Motor Drive Group Test" Type="Folder">
-						<Item Name="SM_CCW Test" Type="Folder">
-							<Item Name="SM_CCW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CCW High Test/SM_CCW High Test.lvclass"/>
-							<Item Name="SM_CCW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CCW Low Test/SM_CCW Low Test.lvclass"/>
-						</Item>
-						<Item Name="SM_CW Test" Type="Folder">
-							<Item Name="SM_CW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW High Test/SM_CW High Test.lvclass"/>
-							<Item Name="SM_CW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW Low Test/SM_CW Low Test.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="SSR_TTL Test" Type="Folder">
-						<Item Name="SSR_TTL High Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL High Test/SSR_TTL High Test.lvclass"/>
-						<Item Name="SSR_TTL Low Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL Low Test/SSR_TTL Low Test.lvclass"/>
-					</Item>
-					<Item Name="UART Serial Group Test" Type="Folder">
-						<Item Name="RS232-CTS Test" Type="Folder">
-							<Item Name="RS232-CTS High Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-CTS High Test/RS232-CTS High Test.lvclass"/>
-							<Item Name="RS232-CTS low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-CTS low Test/RS232-CTS low Test.lvclass"/>
-						</Item>
-						<Item Name="RS232-RTS Test" Type="Folder">
-							<Item Name="RS232-RTS High Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-RTS High Test/RS232-RTS High Test.lvclass"/>
-							<Item Name="RS232-RTS Low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-RTS Low Test/RS232-RTS Low Test.lvclass"/>
-						</Item>
-						<Item Name="RS232-RXD Test" Type="Folder">
-							<Item Name="RS232-RXD High Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-RXD High Test/RS232-RXD High Test.lvclass"/>
-							<Item Name="RS232-RXD Low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-RXD Low Test/RS232-RXD Low Test.lvclass"/>
-						</Item>
-						<Item Name="RS232-TXD Test" Type="Folder">
-							<Item Name="RS232-TXD High Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-TXD High Test/RS232-TXD High Test.lvclass"/>
-							<Item Name="RS232-TXD Low Test.lvclass" Type="LVClass" URL="../TestScenario/RS232-TXD Low Test/RS232-TXD Low Test.lvclass"/>
-						</Item>
-					</Item>
-				</Item>
 				<Item Name="Constant Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Constant Analog Output Voltage Test/Constant Analog Output Voltage Test.lvclass"/>
+				<Item Name="Digital Output Test.lvclass" Type="LVClass" URL="../TestScenario/Digital Output Test/Digital Output Test.lvclass"/>
 				<Item Name="ITestScenario.lvclass" Type="LVClass" URL="../Model/TestScenario/ITestScenario/ITestScenario.lvclass"/>
 				<Item Name="Modulated Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Modulated Analog Output Voltage Test/Modulated Analog Output Voltage Test.lvclass"/>
 				<Item Name="NotImplementedTest.lvclass" Type="LVClass" URL="../TestScenario/Not Implemented Test/NotImplementedTest.lvclass"/>
@@ -630,6 +598,12 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SM_CCW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CCW High Test/SM_CCW High Test.lvclass"/>
+			<Item Name="SM_CCW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CCW Low Test/SM_CCW Low Test.lvclass"/>
+			<Item Name="SM_CW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW High Test/SM_CW High Test.lvclass"/>
+			<Item Name="SM_CW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW Low Test/SM_CW Low Test.lvclass"/>
+			<Item Name="SSR_TTL High Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL High Test/SSR_TTL High Test.lvclass"/>
+			<Item Name="SSR_TTL Low Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL Low Test/SSR_TTL Low Test.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ILCBT" Type="EXE">
@@ -647,7 +621,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
@@ -656,7 +630,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F9ADDA9C-C370-4C7B-B7E9-67088C4D30E7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FC01AAD6-05B9-4F49-A04C-5C3F0AF78ED3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -669,18 +643,15 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/writeDO.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/writeDO.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/setMux.vi</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/setMux.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/readDI.vi</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/readDI.vi</Property>
-				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ILCBT</Property>
 				<Property Name="TgtF_internalName" Type="Str">ILCBT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>

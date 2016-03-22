@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>15.0f2</Version>
+<Version>15.0</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
@@ -15,24 +15,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_0</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>100</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>1</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
 <Val>0</Val>
-</EW>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -80,24 +76,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_7</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>2176</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>63359</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -114,24 +106,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_4</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>2064</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>63471</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -148,24 +136,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_5</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>2080</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>63455</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -182,24 +166,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_6</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>2112</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>63423</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -248,24 +228,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_4</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>0</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>65535</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -282,24 +258,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_5</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>2560</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>62975</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -316,24 +288,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_6</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>3072</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>62463</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -350,24 +318,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_7</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>6144</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>59391</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -378,7 +342,7 @@
 </Cluster>
 <Cluster>
 <Name>Motor Drive Test</Name>
-<NumElts>4</NumElts>
+<NumElts>8</NumElts>
 <Cluster>
 <Name>MUX Settings</Name>
 <NumElts>4</NumElts>
@@ -386,13 +350,13 @@
 <Name>MUX_AO</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <EW>
 <Name>MUX_A1</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <Refnum>
 <Name>MUX_A0 DAQ Channel to Write</Name>
@@ -416,24 +380,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_4</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>2049</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>63486</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -450,24 +410,20 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_5</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>2050</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>0</Val>
-</EW>
+<Val>63485</Val>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
@@ -484,29 +440,89 @@
 <RefType>NIDAQ</RefType>
 <Val>p1_6</Val>
 </Refnum>
-<EW>
+<U16>
 <Name>High Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
-<Val>1</Val>
-</EW>
+<Val>0</Val>
+</U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
 </EW>
-<EW>
+<U16>
 <Name>Low Level Value to Test</Name>
-<Choice>Low</Choice>
-<Choice>High</Choice>
 <Val>0</Val>
-</EW>
+</U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Both Free</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>LIMSW1 Level</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>LIMSW2 Level</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>CW Operated</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>LIMSW1 Level</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>LIMSW2 Level</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>1</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>CCW Operated</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>LIMSW1 Level</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>LIMSW2 Level</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Both Operated</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>LIMSW1 Level</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>LIMSW2 Level</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
 </EW>
 </Cluster>
 </Cluster>
