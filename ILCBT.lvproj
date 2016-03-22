@@ -348,9 +348,7 @@
 				<Item Name="TestLogFactory.lvclass" Type="LVClass" URL="../Model/TestLogFactory/TestLogFactory/TestLogFactory.lvclass"/>
 			</Item>
 			<Item Name="TestScenario" Type="Folder">
-				<Item Name="ILC Analog Output Test" Type="Folder">
-					<Item Name="DAC1 Test.lvclass" Type="LVClass" URL="../TestScenario/DAC1 Test/DAC1 Test.lvclass"/>
-				</Item>
+				<Item Name="ILC Analog Output Test" Type="Folder"/>
 				<Item Name="ILC Digital Output Test" Type="Folder">
 					<Item Name="Motor Drive Group Test" Type="Folder">
 						<Item Name="SM_CCW Test" Type="Folder">
@@ -360,23 +358,6 @@
 						<Item Name="SM_CW Test" Type="Folder">
 							<Item Name="SM_CW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW High Test/SM_CW High Test.lvclass"/>
 							<Item Name="SM_CW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW Low Test/SM_CW Low Test.lvclass"/>
-						</Item>
-					</Item>
-					<Item Name="SSI Group Test" Type="Folder">
-						<Item Name="Out_SCLK Test" Type="Folder">
-							<Item Name="Out_SCLK High Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SCLK High Test/Out_SCLK High Test.lvclass"/>
-							<Item Name="Out_SCLK Low Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SCLK Low Test/Out_SCLK Low Test.lvclass"/>
-						</Item>
-						<Item Name="Out_SDI Test" Type="Folder">
-							<Item Name="Out_SDI High Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SDI High Test/Out_SDI High Test.lvclass"/>
-							<Item Name="Out_SDI Low Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SDI Low Test/Out_SDI Low Test.lvclass"/>
-						</Item>
-						<Item Name="Out_SS Test" Type="Folder">
-							<Item Name="Out_SS High Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SS High Test/Out_SS High Test Folder/Out_SS High Test.lvclass"/>
-							<Item Name="Out_SS Low Test.lvclass" Type="LVClass" URL="../TestScenario/Out_SS Low Test/Out_SS Low Test.lvclass"/>
-						</Item>
-						<Item Name="Reset Test" Type="Folder">
-							<Item Name="Reset Low Test.lvclass" Type="LVClass" URL="../TestScenario/Reset Low Test/Reset Low Test.lvclass"/>
 						</Item>
 					</Item>
 					<Item Name="SSR_TTL Test" Type="Folder">
