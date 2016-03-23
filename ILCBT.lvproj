@@ -327,6 +327,7 @@
 				<Item Name="ConfigureILCDAC3Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC3Strategy/ConfigureILCDAC3Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC4Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC4Strategy/ConfigureILCDAC4Strategy.lvclass"/>
 				<Item Name="ConfigureILCDOStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDOStrategy/ConfigureILCDOStrategy.lvclass"/>
+				<Item Name="ConfigureILCLIMSWStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCLIMSWStrategy/ConfigureILCLIMSWStrategy.lvclass"/>
 				<Item Name="ConfigureILCMotorDriveStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCMotorDriveStrategy/ConfigureILCMotorDriveStrategy.lvclass"/>
 				<Item Name="ConfigureILCROTStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCROTStrategy/ConfigureILCROTStrategy.lvclass"/>
 				<Item Name="ConfigureILCSSRStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCSSRStrategy/ConfigureILCSSRStrategy/ConfigureILCSSRStrategy.lvclass"/>
@@ -343,6 +344,11 @@
 			<Item Name="ILCTC" Type="Folder">
 				<Item Name="ILCTC.lvclass" Type="LVClass" URL="../Model/ILCTC/ILCTC.lvclass"/>
 			</Item>
+			<Item Name="ReadILCStrategy" Type="Folder">
+				<Item Name="IReadILCStrategy.lvclass" Type="LVClass" URL="../Model/ReadILCStrategy/IReadILCStrategy/IReadILCStrategy.lvclass"/>
+				<Item Name="ReadILCLIMSW1Strategy.lvclass" Type="LVClass" URL="../Model/ReadILCStrategy/ReadILCLIMSW1Strategy/ReadILCLIMSW1Strategy.lvclass"/>
+				<Item Name="ReadILCLIMSW2Strategy.lvclass" Type="LVClass" URL="../Model/ReadILCStrategy/ReadILCLIMSW2Strategy/ReadILCLIMSW2Strategy.lvclass"/>
+			</Item>
 			<Item Name="TestLog" Type="Folder">
 				<Item Name="CSVTestLog.lvclass" Type="LVClass" URL="../Model/TestLog/CSVTestLog/CSVTestLog.lvclass"/>
 				<Item Name="ITestLog.lvclass" Type="LVClass" URL="../Model/TestLog/ITestLog/ITestLog.lvclass"/>
@@ -354,6 +360,7 @@
 			<Item Name="TestScenario" Type="Folder">
 				<Item Name="ILC Analog Output Test" Type="Folder"/>
 				<Item Name="Constant Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Constant Analog Output Voltage Test/Constant Analog Output Voltage Test.lvclass"/>
+				<Item Name="Digital Input Test.lvclass" Type="LVClass" URL="../TestScenario/Digital Input Test/Digital Input Test.lvclass"/>
 				<Item Name="Digital Output Test.lvclass" Type="LVClass" URL="../TestScenario/Digital Output Test/Digital Output Test.lvclass"/>
 				<Item Name="ITestScenario.lvclass" Type="LVClass" URL="../Model/TestScenario/ITestScenario/ITestScenario.lvclass"/>
 				<Item Name="Modulated Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Modulated Analog Output Voltage Test/Modulated Analog Output Voltage Test.lvclass"/>
@@ -409,8 +416,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
