@@ -29,6 +29,7 @@
 		<Item Name="Device Configuration" Type="Folder">
 			<Item Name="1-Wire Test.ctl" Type="VI" URL="../1-Wire Test.ctl"/>
 			<Item Name="Device Configuration Tests.ctl" Type="VI" URL="../Device Configuration Tests.ctl"/>
+			<Item Name="UniqueID.ctl" Type="VI" URL="../UniqueID.ctl"/>
 		</Item>
 		<Item Name="Digital Inputs" Type="Folder">
 			<Item Name="ILC Digital Input Test.ctl" Type="VI" URL="../ILC Digital Input Test.ctl"/>
