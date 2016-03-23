@@ -327,7 +327,9 @@
 				<Item Name="ConfigureILCDAC3Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC3Strategy/ConfigureILCDAC3Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC4Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC4Strategy/ConfigureILCDAC4Strategy.lvclass"/>
 				<Item Name="ConfigureILCDOStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDOStrategy/ConfigureILCDOStrategy.lvclass"/>
+				<Item Name="ConfigureILCMotorDriveStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCMotorDriveStrategy/ConfigureILCMotorDriveStrategy.lvclass"/>
 				<Item Name="ConfigureILCROTStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCROTStrategy/ConfigureILCROTStrategy.lvclass"/>
+				<Item Name="ConfigureILCSSRStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCSSRStrategy/ConfigureILCSSRStrategy/ConfigureILCSSRStrategy.lvclass"/>
 				<Item Name="IConfigureILCStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/IConfigureILCStrategy/IConfigureILCStrategy.lvclass"/>
 			</Item>
 			<Item Name="ConverterStrategy" Type="Folder">
@@ -598,12 +600,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SM_CCW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CCW High Test/SM_CCW High Test.lvclass"/>
-			<Item Name="SM_CCW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CCW Low Test/SM_CCW Low Test.lvclass"/>
-			<Item Name="SM_CW High Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW High Test/SM_CW High Test.lvclass"/>
-			<Item Name="SM_CW Low Test.lvclass" Type="LVClass" URL="../TestScenario/SM_CW Low Test/SM_CW Low Test.lvclass"/>
-			<Item Name="SSR_TTL High Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL High Test/SSR_TTL High Test.lvclass"/>
-			<Item Name="SSR_TTL Low Test.lvclass" Type="LVClass" URL="../TestScenario/SSR_TTL Low Test/SSR_TTL Low Test.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ILCBT" Type="EXE">
@@ -621,7 +617,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">42</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>

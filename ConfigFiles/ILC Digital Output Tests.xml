@@ -17,7 +17,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>100</Val>
+<Val>10240</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -27,7 +27,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>0</Val>
+<Val>55295</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
