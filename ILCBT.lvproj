@@ -349,6 +349,7 @@
 				<Item Name="IReadILCStrategy.lvclass" Type="LVClass" URL="../Model/ReadILCStrategy/IReadILCStrategy/IReadILCStrategy.lvclass"/>
 				<Item Name="ReadILCLIMSW1Strategy.lvclass" Type="LVClass" URL="../Model/ReadILCStrategy/ReadILCLIMSW1Strategy/ReadILCLIMSW1Strategy.lvclass"/>
 				<Item Name="ReadILCLIMSW2Strategy.lvclass" Type="LVClass" URL="../Model/ReadILCStrategy/ReadILCLIMSW2Strategy/ReadILCLIMSW2Strategy.lvclass"/>
+				<Item Name="ReadILCTachometerStrategy.lvclass" Type="LVClass" URL="../Model/ReadILCStrategy/ReadILCTachometerStrategy/ReadILCTachometerStrategy.lvclass"/>
 			</Item>
 			<Item Name="TestLog" Type="Folder">
 				<Item Name="CSVTestLog.lvclass" Type="LVClass" URL="../Model/TestLog/CSVTestLog/CSVTestLog.lvclass"/>
@@ -417,8 +418,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
