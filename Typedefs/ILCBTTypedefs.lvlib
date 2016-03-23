@@ -34,7 +34,6 @@
 		<Item Name="Digital Inputs" Type="Folder">
 			<Item Name="ILC Digital Input Test.ctl" Type="VI" URL="../ILC Digital Input Test.ctl"/>
 			<Item Name="ILC Digital Input Tests.ctl" Type="VI" URL="../ILC Digital Input Tests.ctl"/>
-			<Item Name="ILC GPI Digital Input Test.ctl" Type="VI" URL="../ILC GPI Digital Input Test.ctl"/>
 		</Item>
 		<Item Name="Digital Outputs" Type="Folder">
 			<Item Name="ILC Digital Output Test.ctl" Type="VI" URL="../ILC Digital Output Test.ctl"/>
