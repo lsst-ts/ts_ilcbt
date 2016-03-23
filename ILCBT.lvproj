@@ -264,9 +264,9 @@
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line0</Property>
 			</Item>
 			<Item Name="p1_1" Type="NI-DAQmx Channel">
-				<Property Name="ChanType" Type="Str">Digital Input</Property>
+				<Property Name="ChanType" Type="Str">Digital Output</Property>
 				<Property Name="Descr" Type="Str"></Property>
-				<Property Name="DI.InvertLines" Type="Str">0</Property>
+				<Property Name="DO.InvertLines" Type="Str">0</Property>
 				<Property Name="Name" Type="Str">p1_1</Property>
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/port1/line1</Property>
 			</Item>
@@ -327,6 +327,7 @@
 				<Item Name="ConfigureILCDAC3Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC3Strategy/ConfigureILCDAC3Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC4Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC4Strategy/ConfigureILCDAC4Strategy.lvclass"/>
 				<Item Name="ConfigureILCDOStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDOStrategy/ConfigureILCDOStrategy.lvclass"/>
+				<Item Name="ConfigureILCGPIStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCGPIStrategy/ConfigureILCGPIStrategy.lvclass"/>
 				<Item Name="ConfigureILCLIMSWStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCLIMSWStrategy/ConfigureILCLIMSWStrategy.lvclass"/>
 				<Item Name="ConfigureILCMotorDriveStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCMotorDriveStrategy/ConfigureILCMotorDriveStrategy.lvclass"/>
 				<Item Name="ConfigureILCROTStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCROTStrategy/ConfigureILCROTStrategy.lvclass"/>
@@ -358,7 +359,6 @@
 				<Item Name="TestLogFactory.lvclass" Type="LVClass" URL="../Model/TestLogFactory/TestLogFactory/TestLogFactory.lvclass"/>
 			</Item>
 			<Item Name="TestScenario" Type="Folder">
-				<Item Name="ILC Analog Output Test" Type="Folder"/>
 				<Item Name="Constant Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Constant Analog Output Voltage Test/Constant Analog Output Voltage Test.lvclass"/>
 				<Item Name="Digital Input Test.lvclass" Type="LVClass" URL="../TestScenario/Digital Input Test/Digital Input Test.lvclass"/>
 				<Item Name="Digital Output Test.lvclass" Type="LVClass" URL="../TestScenario/Digital Output Test/Digital Output Test.lvclass"/>
@@ -624,7 +624,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">45</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
