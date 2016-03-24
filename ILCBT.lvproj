@@ -366,6 +366,7 @@
 				<Item Name="Digital Output Test.lvclass" Type="LVClass" URL="../TestScenario/Digital Output Test/Digital Output Test.lvclass"/>
 				<Item Name="ITestScenario.lvclass" Type="LVClass" URL="../Model/TestScenario/ITestScenario/ITestScenario.lvclass"/>
 				<Item Name="Modulated Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Modulated Analog Output Voltage Test/Modulated Analog Output Voltage Test.lvclass"/>
+				<Item Name="Multi Analog Input Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Multi Analog Input Voltage Test/Multi Analog Input Voltage Test.lvclass"/>
 				<Item Name="NotImplementedTest.lvclass" Type="LVClass" URL="../TestScenario/Not Implemented Test/NotImplementedTest.lvclass"/>
 			</Item>
 			<Item Name="TestScenarioFactory" Type="Folder">
@@ -409,6 +410,8 @@
 		<Item Name="readDI.vi" Type="VI" URL="../readDI.vi"/>
 		<Item Name="setMux.vi" Type="VI" URL="../setMux.vi"/>
 		<Item Name="testResult.vi" Type="VI" URL="../testResult.vi"/>
+		<Item Name="wait.vi" Type="VI" URL="../wait.vi"/>
+		<Item Name="writeAO.vi" Type="VI" URL="../writeAO.vi"/>
 		<Item Name="writeDO.vi" Type="VI" URL="../writeDO.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -626,7 +629,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">55</Property>
+				<Property Name="Bld_version.build" Type="Int">65</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
