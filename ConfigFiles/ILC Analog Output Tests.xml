@@ -42,11 +42,11 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Start Value</Name>
-<Val>-4.10000000000000E-4</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Stop Value</Name>
-<Val>4.27000000000000</Val>
+<Val>127.00000000000000</Val>
 </DBL>
 <U16>
 <Name>Number of Steps</Name>
@@ -148,7 +148,7 @@
 </DBL>
 <DBL>
 <Name>Stop Value</Name>
-<Val>5.00000000000000</Val>
+<Val>65534.99999999999990</Val>
 </DBL>
 <U16>
 <Name>Number of Steps</Name>

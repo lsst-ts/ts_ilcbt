@@ -21,10 +21,12 @@
 			<Item Name="ICommandFactory.lvclass" Type="LVClass" URL="../ICommandFactory/ICommandFactory.lvclass"/>
 		</Item>
 		<Item Name="Commands" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="ClearError.lvclass" Type="LVClass" URL="../Commands/ClearError/ClearError.lvclass"/>
 			<Item Name="Exit.lvclass" Type="LVClass" URL="../Commands/Exit/Exit.lvclass"/>
 			<Item Name="StandBy.lvclass" Type="LVClass" URL="../Commands/StandBy/StandBy.lvclass"/>
 			<Item Name="Start.lvclass" Type="LVClass" URL="../Commands/Start/Start.lvclass"/>
+			<Item Name="StartTestScenarioCommand.lvclass" Type="LVClass" URL="../Commands/StartTestScenarioCommand/StartTestScenarioCommand.lvclass"/>
 			<Item Name="Update.lvclass" Type="LVClass" URL="../Commands/Update/Update.lvclass"/>
 		</Item>
 		<Item Name="ConfigFiles" Type="Folder" URL="../ConfigFiles">
@@ -322,13 +324,14 @@
 				<Item Name="ApplicationElements.ctl" Type="VI" URL="../Model/ApplicationElements/ApplicationElements.ctl"/>
 			</Item>
 			<Item Name="ConfigureILCStrategy" Type="Folder">
+				<Item Name="ConfigureILCCH0Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCCH0Strategy/ConfigureILCCH0Strategy/ConfigureILCCH0Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC1Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC1Strategy/ConfigureILCDAC1Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC2Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC2Strategy/ConfigureILCDAC2Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC3Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC3Strategy/ConfigureILCDAC3Strategy.lvclass"/>
 				<Item Name="ConfigureILCDAC4Strategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDAC4Strategy/ConfigureILCDAC4Strategy.lvclass"/>
+				<Item Name="ConfigureILCDIStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDIStrategy/ConfigureILCDIStrategy.lvclass"/>
 				<Item Name="ConfigureILCDOStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCDOStrategy/ConfigureILCDOStrategy.lvclass"/>
 				<Item Name="ConfigureILCGPIStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCGPIStrategy/ConfigureILCGPIStrategy.lvclass"/>
-				<Item Name="ConfigureILCLIMSWStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCLIMSWStrategy/ConfigureILCLIMSWStrategy.lvclass"/>
 				<Item Name="ConfigureILCMotorDriveStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCMotorDriveStrategy/ConfigureILCMotorDriveStrategy.lvclass"/>
 				<Item Name="ConfigureILCROTStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCROTStrategy/ConfigureILCROTStrategy.lvclass"/>
 				<Item Name="ConfigureILCSSRStrategy.lvclass" Type="LVClass" URL="../Model/ConfigureILCStrategy/ConfigureILCSSRStrategy/ConfigureILCSSRStrategy/ConfigureILCSSRStrategy.lvclass"/>
@@ -374,6 +377,9 @@
 				<Item Name="ITestScenarioFactory.lvclass" Type="LVClass" URL="../Model/TestScenarioFactory/ITestScenarioFactory/ITestScenarioFactory.lvclass"/>
 				<Item Name="TestScenarioFactory.lvclass" Type="LVClass" URL="../Model/TestScenarioFactory/TestScenarioFactory/TestScenarioFactory.lvclass"/>
 			</Item>
+			<Item Name="TestSeries" Type="Folder">
+				<Item Name="TestSeries.lvclass" Type="LVClass" URL="../Model/TestSeries/TestSeries.lvclass"/>
+			</Item>
 			<Item Name="Model.lvclass" Type="LVClass" URL="../Model/Model/Model.lvclass"/>
 		</Item>
 		<Item Name="State" Type="Folder">
@@ -385,9 +391,11 @@
 		</Item>
 		<Item Name="States" Type="Folder">
 			<Item Name="EnabledState.lvclass" Type="LVClass" URL="../States/EnabledState/EnabledState.lvclass"/>
+			<Item Name="ExecutingTestState.lvclass" Type="LVClass" URL="../States/ExecutingTestState/ExecutingTestState.lvclass"/>
 			<Item Name="FaultState.lvclass" Type="LVClass" URL="../States/FaultState/FaultState.lvclass"/>
 			<Item Name="OffState.lvclass" Type="LVClass" URL="../States/OffState/OffState.lvclass"/>
 			<Item Name="StandbyState.lvclass" Type="LVClass" URL="../States/StandbyState/StandbyState.lvclass"/>
+			<Item Name="WaitingForTestState.lvclass" Type="LVClass" URL="../States/WaitingForTestState/WaitingForTestState.lvclass"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="ILCBTTypedefs.lvlib" Type="Library" URL="../Typedefs/ILCBTTypedefs.lvlib"/>
@@ -399,11 +407,14 @@
 			<Item Name="ILCBTViews.lvlib" Type="Library" URL="../View/ILCBTViews.lvlib"/>
 			<Item Name="subpanelHelper.vi" Type="VI" URL="../View/subpanelHelper.vi"/>
 		</Item>
+		<Item Name="abortTestSeries.vi" Type="VI" URL="../abortTestSeries.vi"/>
 		<Item Name="boolToDigitalLevel.vi" Type="VI" URL="../boolToDigitalLevel.vi"/>
 		<Item Name="checkDigitalLevel.vi" Type="VI" URL="../checkDigitalLevel.vi"/>
 		<Item Name="checkTolerance.vi" Type="VI" URL="../checkTolerance.vi"/>
+		<Item Name="copyConfigFiles.vi" Type="VI" URL="../copyConfigFiles.vi"/>
 		<Item Name="createILC.vi" Type="VI" URL="../createILC.vi"/>
 		<Item Name="digitalLevelToBool.vi" Type="VI" URL="../digitalLevelToBool.vi"/>
+		<Item Name="getNewestRow.vi" Type="VI" URL="../getNewestRow.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="passFail.vi" Type="VI" URL="../passFail.vi"/>
 		<Item Name="readAI.vi" Type="VI" URL="../readAI.vi"/>
@@ -422,8 +433,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -577,6 +588,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="Move t0 to the end.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Move t0 to the end.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
@@ -617,6 +629,7 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ILCBT" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{F968D46C-1431-4B9F-A8BA-E6B90425CD1D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{46BEC58E-0481-4DCB-BD37-8C543BB5C103}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
@@ -630,7 +643,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">70</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../builds/ILCBT/ILCBT/ILCBT_ILCBT_log.txt</Property>
+				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_version.build" Type="Int">103</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
@@ -638,16 +653,19 @@
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FC01AAD6-05B9-4F49-A04C-5C3F0AF78ED3}</Property>
+				<Property Name="Destination[2].destName" Type="Str">ConfigFiles</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ConfigFiles</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9BCAAB3D-E96B-447E-924E-18C103E3E1A2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ConfigFiles</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
@@ -660,7 +678,10 @@
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/readDI.vi</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/View/ILCBTViews.lvlib/ilcbtView.vi</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ILCBT</Property>
 				<Property Name="TgtF_internalName" Type="Str">ILCBT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>

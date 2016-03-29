@@ -136,7 +136,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>63456</Val>
+<Val>63455</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>

@@ -58,11 +58,15 @@
 			<Item Name="Supply Voltage Tests.ctl" Type="VI" URL="../Supply Voltage Tests.ctl"/>
 		</Item>
 		<Item Name="ILC Settings.ctl" Type="VI" URL="../ILC Settings.ctl"/>
+		<Item Name="TestExecutionOrder.ctl" Type="VI" URL="../TestExecutionOrder.ctl"/>
 	</Item>
 	<Item Name="CommandSelector.ctl" Type="VI" URL="../CommandSelector.ctl"/>
 	<Item Name="InputData.ctl" Type="VI" URL="../InputData.ctl"/>
 	<Item Name="OutputData.ctl" Type="VI" URL="../OutputData.ctl"/>
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
+	<Item Name="StartTestScenario.ctl" Type="VI" URL="../StartTestScenario.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
+	<Item Name="TestScenarioCompleted.ctl" Type="VI" URL="../TestScenarioCompleted.ctl"/>
+	<Item Name="TestScenarioStarted.ctl" Type="VI" URL="../TestScenarioStarted.ctl"/>
 </Library>
