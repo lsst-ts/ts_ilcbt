@@ -360,6 +360,7 @@
 				<Item Name="TestLogFactory.lvclass" Type="LVClass" URL="../Model/TestLogFactory/TestLogFactory/TestLogFactory.lvclass"/>
 			</Item>
 			<Item Name="TestScenario" Type="Folder">
+				<Item Name="ADC Channel0 Test.lvclass" Type="LVClass" URL="../TestScenario/ADC Channel 1 Test/ADC Channel 1 Test/ADC Channel0 Test.lvclass"/>
 				<Item Name="Constant Analog Output Voltage Test.lvclass" Type="LVClass" URL="../TestScenario/Constant Analog Output Voltage Test/Constant Analog Output Voltage Test.lvclass"/>
 				<Item Name="Device Configuration Test.lvclass" Type="LVClass" URL="../TestScenario/Device Configuration Test/Device Configuration Test/Device Configuration Test.lvclass"/>
 				<Item Name="Digital Input Test.lvclass" Type="LVClass" URL="../TestScenario/Digital Input Test/Digital Input Test.lvclass"/>
@@ -421,8 +422,8 @@
 				<Item Name="ILCSim1.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/ILCSim1/ILCSim1.lvclass"/>
 				<Item Name="ILCSimulatorSignals.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Simulators/ILCSimulatorSignals/ILCSimulatorSignals.lvlib"/>
 				<Item Name="Log.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/Log/Log.lvlib"/>
-				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/SerialProtocols/SerialProtocols.lvlib"/>
-				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/Simulators/SimulateSerialData/SimulateSerialData.lvclass"/>
+				<Item Name="SerialProtocols.lvlib" Type="Library" URL="/&lt;userlib&gt;/Common/serialprotocols/SerialProtocols.lvlib"/>
+				<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Common/simulators/simulateserialdata/SimulateSerialData.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -629,7 +630,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
-				<Property Name="Bld_version.build" Type="Int">65</Property>
+				<Property Name="Bld_version.build" Type="Int">70</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
