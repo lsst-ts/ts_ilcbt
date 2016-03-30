@@ -294,6 +294,818 @@
 <Choice>EXC2 Test</Choice>
 <Choice>EXC3 Test</Choice>
 <Choice>EXC4 Test</Choice>
+<Val>40</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>41</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>42</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>43</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>44</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>45</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>46</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>47</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>48</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>49</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>50</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>51</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>52</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
+<Val>53</Val>
+</EW>
+<EW>
+<Name>Scenario</Name>
+<Choice>+3.3VA Supply Test</Choice>
+<Choice>+3.3VD Supply Test</Choice>
+<Choice>+5VA Supply Test</Choice>
+<Choice>+5VD Supply Test</Choice>
+<Choice>Unique ID Test</Choice>
+<Choice>TEDS Status Test</Choice>
+<Choice>LIMSW1_TTL Low Test</Choice>
+<Choice>LIMSW1_TTL High Test</Choice>
+<Choice>LIMSW2_TTL Low Test</Choice>
+<Choice>LIMSW2_TTL High Test</Choice>
+<Choice>Tachometer Low Test</Choice>
+<Choice>Tachometer High Test</Choice>
+<Choice>SSR_TTL Low Test</Choice>
+<Choice>SSR_TTL High Test</Choice>
+<Choice>SM_GPI Low Test</Choice>
+<Choice>SM_GPI High Test</Choice>
+<Choice>CW Motion Without Limit Test</Choice>
+<Choice>CW Motion With Limit Test</Choice>
+<Choice>CW Motion With Both Limits Test</Choice>
+<Choice>CW Motion on CCW Limit Test</Choice>
+<Choice>CCW Motion Without Limit Test</Choice>
+<Choice>CCW Motion With Limit Test</Choice>
+<Choice>CCW Motion With Both Limits Test</Choice>
+<Choice>CCW Motion on CW Limit Test</Choice>
+<Choice>RS232-TXD Low Test</Choice>
+<Choice>RS232-TXD High Test</Choice>
+<Choice>RS232-RTS Low Test</Choice>
+<Choice>RS232-RTS High Test</Choice>
+<Choice>RS232-RXD Low Test</Choice>
+<Choice>RS232-RXD High Test</Choice>
+<Choice>RS232-CTS Low Test</Choice>
+<Choice>RS232-CTS High Test</Choice>
+<Choice>Out_SS Low Test</Choice>
+<Choice>Out_SS High Test</Choice>
+<Choice>Out_SDI Low Test</Choice>
+<Choice>Out_SDI High Test</Choice>
+<Choice>Out_SCLK Low Test</Choice>
+<Choice>Out_SCLK High Test</Choice>
+<Choice>Reset Low Test</Choice>
+<Choice>Reset High Test</Choice>
+<Choice>1 Channel ADC Test</Choice>
+<Choice>3 Channel ADC Test</Choice>
+<Choice>5 Channel ADC Test</Choice>
+<Choice>Vref Test</Choice>
+<Choice>ROT Test</Choice>
+<Choice>DAC1 Test</Choice>
+<Choice>DAC2 Test</Choice>
+<Choice>DAC3 Test</Choice>
+<Choice>DAC4 Test</Choice>
+<Choice>BIAS Test</Choice>
+<Choice>EXC1 Test</Choice>
+<Choice>EXC2 Test</Choice>
+<Choice>EXC3 Test</Choice>
+<Choice>EXC4 Test</Choice>
 <Val>4</Val>
 </EW>
 <EW>
@@ -2325,818 +3137,6 @@
 <Choice>EXC3 Test</Choice>
 <Choice>EXC4 Test</Choice>
 <Val>39</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>40</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>41</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>42</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>43</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>44</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>45</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>46</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>47</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>48</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>49</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>50</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>51</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>52</Val>
-</EW>
-<EW>
-<Name>Scenario</Name>
-<Choice>+3.3VA Supply Test</Choice>
-<Choice>+3.3VD Supply Test</Choice>
-<Choice>+5VA Supply Test</Choice>
-<Choice>+5VD Supply Test</Choice>
-<Choice>Unique ID Test</Choice>
-<Choice>TEDS Status Test</Choice>
-<Choice>LIMSW1_TTL Low Test</Choice>
-<Choice>LIMSW1_TTL High Test</Choice>
-<Choice>LIMSW2_TTL Low Test</Choice>
-<Choice>LIMSW2_TTL High Test</Choice>
-<Choice>Tachometer Low Test</Choice>
-<Choice>Tachometer High Test</Choice>
-<Choice>SSR_TTL Low Test</Choice>
-<Choice>SSR_TTL High Test</Choice>
-<Choice>SM_GPI Low Test</Choice>
-<Choice>SM_GPI High Test</Choice>
-<Choice>CW Motion Without Limit Test</Choice>
-<Choice>CW Motion With Limit Test</Choice>
-<Choice>CW Motion With Both Limits Test</Choice>
-<Choice>CW Motion on CCW Limit Test</Choice>
-<Choice>CCW Motion Without Limit Test</Choice>
-<Choice>CCW Motion With Limit Test</Choice>
-<Choice>CCW Motion With Both Limits Test</Choice>
-<Choice>CCW Motion on CW Limit Test</Choice>
-<Choice>RS232-TXD Low Test</Choice>
-<Choice>RS232-TXD High Test</Choice>
-<Choice>RS232-RTS Low Test</Choice>
-<Choice>RS232-RTS High Test</Choice>
-<Choice>RS232-RXD Low Test</Choice>
-<Choice>RS232-RXD High Test</Choice>
-<Choice>RS232-CTS Low Test</Choice>
-<Choice>RS232-CTS High Test</Choice>
-<Choice>Out_SS Low Test</Choice>
-<Choice>Out_SS High Test</Choice>
-<Choice>Out_SDI Low Test</Choice>
-<Choice>Out_SDI High Test</Choice>
-<Choice>Out_SCLK Low Test</Choice>
-<Choice>Out_SCLK High Test</Choice>
-<Choice>Reset Low Test</Choice>
-<Choice>Reset High Test</Choice>
-<Choice>1 Channel ADC Test</Choice>
-<Choice>3 Channel ADC Test</Choice>
-<Choice>5 Channel ADC Test</Choice>
-<Choice>Vref Test</Choice>
-<Choice>ROT Test</Choice>
-<Choice>DAC1 Test</Choice>
-<Choice>DAC2 Test</Choice>
-<Choice>DAC3 Test</Choice>
-<Choice>DAC4 Test</Choice>
-<Choice>BIAS Test</Choice>
-<Choice>EXC1 Test</Choice>
-<Choice>EXC2 Test</Choice>
-<Choice>EXC3 Test</Choice>
-<Choice>EXC4 Test</Choice>
-<Val>53</Val>
 </EW>
 </Array>
 </LvVariant>

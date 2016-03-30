@@ -21,7 +21,7 @@
 </Refnum>
 <DBL>
 <Name>Expected Value</Name>
-<Val>4.30000000000000</Val>
+<Val>4.40000000000000</Val>
 </DBL>
 <DBL>
 <Name>Tolerance</Name>
@@ -42,11 +42,11 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Start Value</Name>
-<Val>0.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Stop Value</Name>
-<Val>127.00000000000000</Val>
+<Val>126.00000000000000</Val>
 </DBL>
 <U16>
 <Name>Number of Steps</Name>
@@ -114,7 +114,7 @@
 </Cluster>
 <Cluster>
 <Name>DAC</Name>
-<NumElts>6</NumElts>
+<NumElts>7</NumElts>
 <Refnum>
 <Name>DAC1 DAQ Channel to Read</Name>
 <RefKind>Generic Tag</RefKind>
@@ -157,7 +157,11 @@
 </Cluster>
 <DBL>
 <Name>Tolerance</Name>
-<Val>1.02000000000000E-2</Val>
+<Val>2.00000000000000E-3</Val>
+</DBL>
+<DBL>
+<Name>Reference</Name>
+<Val>4.09600000000000</Val>
 </DBL>
 </Cluster>
 </Cluster>
