@@ -55,7 +55,7 @@
 </Array>
 <I32>
 <Name>Value to Expect</Name>
-<Val>131072</Val>
+<Val>130605</Val>
 </I32>
 <I32>
 <Name>Tolerance</Name>
