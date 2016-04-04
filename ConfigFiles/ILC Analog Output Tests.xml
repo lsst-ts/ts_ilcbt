@@ -55,7 +55,7 @@
 </Cluster>
 <DBL>
 <Name>Tolerance</Name>
-<Val>4.50000000000000E-3</Val>
+<Val>1.50000000000000E-2</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -73,7 +73,7 @@
 </DBL>
 <DBL>
 <Name>Tolerance</Name>
-<Val>3.30000000000000E-3</Val>
+<Val>1.00000000000000E-2</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -109,7 +109,7 @@
 </DBL>
 <DBL>
 <Name>Tolerance</Name>
-<Val>3.30000000000000E-3</Val>
+<Val>1.00000000000000E-2</Val>
 </DBL>
 </Cluster>
 <Cluster>
