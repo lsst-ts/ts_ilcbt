@@ -8,7 +8,7 @@
 <NumElts>1</NumElts>
 <I32>
 <Name>Samples To Average</Name>
-<Val>100</Val>
+<Val>3</Val>
 </I32>
 </Cluster>
 </LvVariant>

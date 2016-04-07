@@ -40,7 +40,7 @@
 </Cluster>
 <U16>
 <Name>Delay Between Test Steps</Name>
-<Val>100</Val>
+<Val>500</Val>
 </U16>
 <Cluster>
 <Name>1 Channel</Name>
@@ -59,7 +59,7 @@
 </I32>
 <I32>
 <Name>Tolerance</Name>
-<Val>15</Val>
+<Val>4095</Val>
 </I32>
 <Array>
 <Name>PGA Gain Coefficients</Name>
