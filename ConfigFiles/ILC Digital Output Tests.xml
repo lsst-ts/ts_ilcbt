@@ -318,7 +318,7 @@
 </Cluster>
 <Cluster>
 <Name>Motor Drive Test</Name>
-<NumElts>8</NumElts>
+<NumElts>9</NumElts>
 <Cluster>
 <Name>MUX Settings</Name>
 <NumElts>2</NumElts>
@@ -497,6 +497,36 @@
 <Choice>Low</Choice>
 <Choice>High</Choice>
 <Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>OUT_SDO</Name>
+<NumElts>5</NumElts>
+<Refnum>
+<Name>DAQ Channel to Read</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>p1_7</Val>
+</Refnum>
+<U16>
+<Name>High Level Value to Test</Name>
+<Val>2304</Val>
+</U16>
+<EW>
+<Name>High Level Value to Expect</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>0</Val>
+</EW>
+<U16>
+<Name>Low Level Value to Test</Name>
+<Val>63231</Val>
+</U16>
+<EW>
+<Name>Low Level Value to Expect</Name>
+<Choice>Low</Choice>
+<Choice>High</Choice>
+<Val>1</Val>
 </EW>
 </Cluster>
 </Cluster>
