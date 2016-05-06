@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>15.0f2</Version>
+<Version>15.0.1f1</Version>
 <LvVariant>
 <Name>Value</Name>
 <Cluster>
@@ -17,23 +17,23 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>10240</Val>
+<Val>2048</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>55295</Val>
+<Val>63487</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
 <Choice>Low</Choice>
 <Choice>High</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 </Cluster>
 <Cluster>
@@ -66,7 +66,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>2176</Val>
+<Val>10368</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -76,7 +76,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>63359</Val>
+<Val>55167</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -96,7 +96,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>2064</Val>
+<Val>10256</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -106,7 +106,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>63471</Val>
+<Val>55279</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -126,7 +126,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>2080</Val>
+<Val>10272</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -136,7 +136,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>63455</Val>
+<Val>55263</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -156,7 +156,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>2112</Val>
+<Val>10304</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -166,7 +166,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>63423</Val>
+<Val>55231</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -206,7 +206,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>0</Val>
+<Val>8192</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -216,7 +216,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>65535</Val>
+<Val>57343</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -236,7 +236,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>2560</Val>
+<Val>10752</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -246,7 +246,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>62975</Val>
+<Val>54783</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -266,7 +266,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>3072</Val>
+<Val>11264</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -276,7 +276,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>62463</Val>
+<Val>54271</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -296,7 +296,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>6144</Val>
+<Val>14336</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -306,7 +306,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>59376</Val>
+<Val>51199</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -346,7 +346,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>2049</Val>
+<Val>10241</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -356,7 +356,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>63486</Val>
+<Val>55294</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -376,7 +376,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>2050</Val>
+<Val>10242</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -386,7 +386,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>63485</Val>
+<Val>55293</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>
@@ -510,7 +510,7 @@
 </Refnum>
 <U16>
 <Name>High Level Value to Test</Name>
-<Val>2304</Val>
+<Val>10496</Val>
 </U16>
 <EW>
 <Name>High Level Value to Expect</Name>
@@ -520,7 +520,7 @@
 </EW>
 <U16>
 <Name>Low Level Value to Test</Name>
-<Val>63231</Val>
+<Val>55039</Val>
 </U16>
 <EW>
 <Name>Low Level Value to Expect</Name>

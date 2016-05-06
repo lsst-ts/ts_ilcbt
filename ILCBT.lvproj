@@ -102,9 +102,9 @@
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai4</Property>
 			</Item>
 			<Item Name="ai5" Type="NI-DAQmx Channel">
-				<Property Name="AI.Max" Type="Str">4.7999999999999998</Property>
+				<Property Name="AI.Max" Type="Str">10</Property>
 				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
-				<Property Name="AI.Min" Type="Str">3.7999999999999998</Property>
+				<Property Name="AI.Min" Type="Str">-0.5</Property>
 				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
 				<Property Name="AI.Voltage.Units" Type="Str">Volts</Property>
 				<Property Name="ChanType" Type="Str">Analog Input</Property>
@@ -113,7 +113,7 @@
 				<Property Name="PhysicalChanName" Type="Str">ILCBT/ai5</Property>
 			</Item>
 			<Item Name="ai6" Type="NI-DAQmx Channel">
-				<Property Name="AI.Max" Type="Str">4.7999999999999998</Property>
+				<Property Name="AI.Max" Type="Str">10</Property>
 				<Property Name="AI.MeasType" Type="Str">Voltage</Property>
 				<Property Name="AI.Min" Type="Str">-0.5</Property>
 				<Property Name="AI.TermCfg" Type="Str">RSE</Property>
@@ -645,8 +645,9 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{A7BEE112-FF47-4C4F-8CB9-11CDF5283376}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/ILCBT/ILCBT/ILCBT_ILCBT_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">148</Property>
+				<Property Name="Bld_version.build" Type="Int">158</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ILCBT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ILCBT.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -656,7 +657,7 @@
 				<Property Name="Destination[2].destName" Type="Str">ConfigFiles</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/ILCBT/ConfigFiles</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5CEC4947-235C-4B85-846C-2ADFE2053F98}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{459E89E8-09D8-4A13-8AF5-33C8A8E2482A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
